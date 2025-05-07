@@ -1,0 +1,3288 @@
+{
+  "graph": {
+    "id": "2e5b1b5d-fe2e-4f2f-ab96-075d2a44422a",
+    "nodes": [
+      {
+        "type": "__baklava_GraphNode-bf221449-c6e5-42e2-8eb4-d36ba97aeaa2",
+        "id": "f356994d-78f4-44c2-976f-0027dd027b5f",
+        "title": "Spectrum_model",
+        "inputs": {
+          "f851acf0-34a8-4742-bfdd-4f3dcc694447": {
+            "id": "b0fb3457-a783-4b6c-9b97-680127c8c0c7"
+          },
+          "1d2e1ba1-b788-40ed-9c91-0051cdbb23a6": {
+            "id": "219219c4-53f1-4b96-844b-df707b50a46a"
+          },
+          "48324829-2738-4bcb-a1d3-2bcf01dd14e1": {
+            "id": "228eccea-bacf-4ba3-94f3-24c4e28e08bc"
+          },
+          "30f00980-fa19-49a2-8fed-e24632e6f0ce": {
+            "id": "b5a0a999-3b70-4983-9a4e-5701416dcf14"
+          },
+          "96502214-297a-4048-ab18-8ce7abdac72f": {
+            "id": "f44d0b85-d0a6-4cd8-8ff2-f714bdb1e4cc"
+          },
+          "2b07a986-a24b-4447-ab03-ee2830a6a0a6": {
+            "id": "7edb61e1-850a-4e8d-a0ba-68971254ad02"
+          },
+          "10e26a96-5ebc-4ff7-993e-bf1ddf83d129": {
+            "id": "3d6356a7-7dd8-4cf7-a8f8-88ddaaa7e3c0"
+          },
+          "576c932d-e10a-4483-b7f8-d7512113e060": {
+            "id": "3bff7b07-5784-4b5e-af00-15c802cace5a"
+          },
+          "2310ace6-1442-4c2c-b2a0-69e24edb59e0": {
+            "id": "465a7019-3e65-43ed-aa51-d9dcf5ba9349"
+          },
+          "f987318c-08e4-4e03-b5a9-0da23543ff2a": {
+            "id": "915ceaac-a852-4a87-be6b-ff46270479d4"
+          },
+          "97a9355e-e2b7-4bd8-8c05-6abf0a11dc95": {
+            "id": "6406abaa-ec33-4114-83df-43959e7be28f"
+          }
+        },
+        "outputs": {
+          "c76e6f06-d446-4616-9194-8847e042363d": {
+            "id": "0999e43d-9e04-4f37-aaaa-5394f06aa03b",
+            "value": null
+          },
+          "_calculationResults": {
+            "id": "c1c19a4d-3250-4262-b6cd-f39b2a191245",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 1735.450862348698,
+          "y": 109.59110209886015
+        },
+        "width": 200,
+        "twoColumn": false,
+        "graphState": {
+          "id": "e7b40283-16d1-4640-969f-871b6caffcf0",
+          "nodes": [
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "b43293e8-bdfa-4f98-a6e5-abb7537734db",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "e24b8ebd-8287-4382-8749-130f6446911f",
+                  "templateId": "4ba47351-fb80-49c9-896d-44d9e8ccf0cc",
+                  "value": "Youtube cost"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "604d991d-5473-4f05-9e6a-bcf7d3ddecbc",
+                  "templateId": "92d0bf6e-530e-46c6-b310-85901f8e1141",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 207.50306357009512,
+                "y": -41.14581127382468
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "f851acf0-34a8-4742-bfdd-4f3dcc694447"
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "3e8667d4-892d-4850-b3d6-50a24851a9e7",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "b52c7a02-5b80-4098-a40e-d8021ce5f0e8",
+                  "templateId": "931c8023-2f4a-4b88-bf90-e36a1560f58c",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "e4def426-cd4a-4c3b-bb3a-74869b2f3634",
+                  "templateId": "901269e9-16d7-4ab0-831c-4436897b4d31",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "6d98513b-8cfe-46d3-8a20-6d98fb2f6de7",
+                  "templateId": "670d44ad-aa49-4771-957a-8c9ea3a4aecd",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 469.9775573717682,
+                "y": -71.56738711440782
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "f9ee8161-d47e-44f8-9e05-6cdd19959bb2",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "eaa79984-03ee-44f4-9eda-2bc06d3a7fc4",
+                  "templateId": "eb1aeb1c-4ece-49b2-be37-a96bd5d9f06c",
+                  "value": "Contest cost"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "64ab503b-bf07-46b3-a41e-182a9d244bf5",
+                  "templateId": "ad5b1174-beed-4bb1-8b84-280fd88a4ac9",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 211.0404558814681,
+                "y": 132.89389437127747
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "1d2e1ba1-b788-40ed-9c91-0051cdbb23a6"
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "d9076dc0-e613-4938-a714-d0aca5631df1",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "fb10a8ad-2212-4e76-ab96-09d1cde696e8",
+                  "templateId": "825d2f43-41ea-4397-8bf9-381d31805711",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "a02f5d02-9927-4e58-a6a8-63a81c880890",
+                  "templateId": "9ab643d7-2b33-4f28-a6eb-587facf973c4",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "0a6883b9-8144-43b2-870f-2b8ca8496623",
+                  "templateId": "54642ab2-2387-491a-9362-45fedf3665bf",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 464.31769826916525,
+                "y": 142.09110652974567
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "0c58339f-24d3-4f3a-a57a-8ed47aa91d66",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "d88f06f1-7b2c-49e1-97bd-1089624b6a3a",
+                  "templateId": "846eee2e-9973-4772-88e3-60fec781fdc8",
+                  "value": "Influencer cost"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "92a17a07-3b7c-430a-8c47-07db4e768894",
+                  "templateId": "89ee095d-36e9-4803-9ba3-68a71425c215",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 197.59834939604764,
+                "y": 329.57289903251444
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "48324829-2738-4bcb-a1d3-2bcf01dd14e1"
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "0fbb71eb-3c79-4519-b029-e709e7d7e1de",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "f78710c4-b13b-49ef-8837-0a4f98a03263",
+                  "templateId": "ceca0388-d030-4b0e-8202-08e709ddb2e0",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "0b01a6dd-7e0d-43a0-a9c7-b86b5dcdcd53",
+                  "templateId": "8a95e982-9211-44f8-9c50-58e351436cf7",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "1c2c7c92-560b-4e5e-821a-c008379f7e19",
+                  "templateId": "1416d4a6-b082-4d86-8aaa-ea67b9365e61",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 452.2905958149032,
+                "y": 348.67482536503013
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "ee666dc4-c34d-472f-9e51-e4aec107a79c",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "fbee5b9e-6403-4edc-b13b-afbf91e21b58",
+                  "templateId": "68a31088-06e7-4dc1-b297-d84a8e7aab30",
+                  "value": "Nutritionist cost"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "7e14c08d-8e22-47fc-a482-1f18a42a1a61",
+                  "templateId": "021e6368-83b4-4939-b06c-666ded35a0a8",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 198.30581215611915,
+                "y": 513.5172599684024
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "30f00980-fa19-49a2-8fed-e24632e6f0ce"
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "beaae43e-e32a-4701-a7c0-efe8adb68a22",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "8c62c2f6-639c-4101-884b-c68004972d7f",
+                  "templateId": "08b15fe4-e81b-4f14-a6c6-18b343c4a3a6",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "1b9c61e0-0c9e-4142-8592-a27d587a0b88",
+                  "templateId": "d0f2977a-4dc4-4085-86c8-5435b57e2786",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "a681b8fc-8383-45f6-84ea-cdb850560cbc",
+                  "templateId": "6be54cec-a8f7-4c20-a510-93c315f6af3a",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 447.33823872787957,
+                "y": 558.7958972561798
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "Sum",
+              "id": "3c0094d6-a045-4722-abb6-1a050260a507",
+              "title": "Total cost",
+              "inputs": {
+                "n_inputs": {
+                  "id": "7ea2665d-4d73-4dd8-9341-1b0dbbfa6f0b",
+                  "templateId": "22ac01ba-666e-47b2-863f-64758e0c0fe7",
+                  "value": 5
+                },
+                "output_type": {
+                  "id": "ec5bc754-cfd0-413c-a0b7-9efdb011a621",
+                  "templateId": "7d1fe995-50f5-4675-8318-429b2f1fd852",
+                  "value": "probabilistic"
+                },
+                "a": {
+                  "id": "e184fd4a-7edd-4f05-ab59-34cd1aab05f3",
+                  "templateId": "f21347e1-ac68-41c4-b09a-b55621f966cd",
+                  "value": 0
+                },
+                "b": {
+                  "id": "f4d6030d-5513-46e6-8a3e-ace848b5f3e1",
+                  "templateId": "6881ed55-a97b-4d3e-b8f4-34ef66521f35",
+                  "value": 0
+                },
+                "c": {
+                  "id": "20284478-23e4-4d13-9f10-f42c3862a287",
+                  "templateId": "1caaa63a-ab09-4d5f-8ef3-5580e678db4b",
+                  "value": 0
+                },
+                "d": {
+                  "id": "bf59aa77-6483-4b24-84b3-bd443b5b5b17",
+                  "templateId": "df408c5e-1f62-4bb9-b1c1-397bcef83521",
+                  "value": 0
+                },
+                "e": {
+                  "id": "9fd13e18-c9f2-49d8-9928-e47735807b68",
+                  "templateId": "d131572c-fea2-451d-be69-a817561f6b0d",
+                  "value": 0
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "bb568e7c-f991-4900-b2d3-28d0e0f24f2c",
+                  "templateId": "f6b69a8f-c370-4f07-a9a3-7301350a789f",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 866.6511205350674,
+                "y": 79.15536854562103
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "f69b1f4a-ac69-4497-a9cc-eb1f8e18f93d",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "abd2f0fc-07c2-4160-8ed2-a9bf9af915ca",
+                  "templateId": "c59fba0e-bc98-4e95-af77-f62306e08405",
+                  "value": "Improved knowledge"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "06776058-7fd4-4800-a175-b8d19c48c022",
+                  "templateId": "f5a0aa49-4a34-4d0f-84cc-a20b55627ddd",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 164.19983167151005,
+                "y": 921.3672836878595
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "96502214-297a-4048-ab18-8ce7abdac72f"
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "5221e70f-ebd2-4283-88be-f9a4d38e991a",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "33b076cd-4c54-49ab-895a-606ebdf56c3f",
+                  "templateId": "b2111a7e-1f84-49a9-b452-5943d1548116",
+                  "value": "Motivation to change"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "2094a216-84ef-4c6c-94bf-38221f762659",
+                  "templateId": "0229b2ee-37e3-4009-a317-e9d8373e0c10",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 167.98766085314864,
+                "y": 1098.637664167734
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "2b07a986-a24b-4447-ab03-ee2830a6a0a6"
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "1af71d19-c37a-49aa-abc4-c0d8dabc5c28",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "e2e2aa79-cab1-4699-ad13-dc1ac02f4521",
+                  "templateId": "ec3a0e64-53a7-4702-97c5-037d0ce66255",
+                  "value": "Information value"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "2e82ed7a-f78c-400e-a755-f247e5266e25",
+                  "templateId": "3ac7b4c3-0ecf-4a70-9437-86c21f5875ae",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 165.7149297164206,
+                "y": 743.3393541855294
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "10e26a96-5ebc-4ff7-993e-bf1ddf83d129"
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "b526d6f1-ee55-4732-8bee-6b6fe0d55bed",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "034946e5-ccc1-45f1-bb52-da8bc8301fcd",
+                  "templateId": "4cd3e5e4-5eea-44c3-af15-242c9bd6c19f",
+                  "value": "Healthy food choice"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "f7efb9e6-3a4c-40e7-a16d-da36b97522f3",
+                  "templateId": "05a8ca14-5bf1-4dc3-b769-d56308494fe5",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 148.49833155146385,
+                "y": 1368.9555197262976
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "576c932d-e10a-4483-b7f8-d7512113e060"
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "81b1ba4d-bcc2-4092-984d-16db42466168",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "0bd3fd45-02a1-4300-bc8f-41acff532e04",
+                  "templateId": "d314cb3f-0bbe-4d97-b90e-72ef80316f85",
+                  "value": "Positive health effect"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "79b6a782-2b5c-4c16-a2ea-23a5e7e52617",
+                  "templateId": "79694829-c48e-4773-bf13-f781e8f06edf",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 151.74354745974796,
+                "y": 1579.140619790589
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "2310ace6-1442-4c2c-b2a0-69e24edb59e0"
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "d5ca7110-2489-437e-8a27-c147cc799fcf",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "8a16e05f-6143-4b0c-8cbc-ec14ded063b1",
+                  "templateId": "691334c3-e0ee-4e50-86d4-5dc591a6817d",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "19181f67-2fd5-42a1-bbde-9c72e44475d5",
+                  "templateId": "c7169642-bf7c-4869-91f0-5e24815ec51a",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "113636f8-2411-49fe-9252-db53214df6f4",
+                  "templateId": "895492ba-7f8a-4fc2-bdb4-951ffe6aacda",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 451.88005147835014,
+                "y": 782.4396025963716
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "1c3427d1-f30b-4dd7-a241-d2bf86365c90",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "f7051d09-01f1-4ac7-a2df-10f179322a7a",
+                  "templateId": "73253255-ecf0-462a-8977-3d66116ff9ac",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "e5670d49-14c0-4bc9-b21e-51972d82910e",
+                  "templateId": "5beb491c-893b-412b-81a7-fefae6a329b5",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "079fbff0-ffe0-4e8b-94bc-c0e04618ded3",
+                  "templateId": "526279c8-2c47-434f-9ffc-b05c841a8481",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 441.5644841453248,
+                "y": 993.9084058526028
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "051f0647-1bf8-48d1-a8b9-74768c2b6e78",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "a9e9009e-9f21-4596-bac3-0b351889c89c",
+                  "templateId": "c289e7bb-2bfc-4c5e-a270-3d0a7d597bbd",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "0611f5be-d6b8-45df-bf77-6c9f8ec17786",
+                  "templateId": "3e8fd918-9e74-47d5-a78e-81f6b1ac119e",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "79b7014f-0e0f-4a25-9d57-a3f892c13976",
+                  "templateId": "e772fbc9-4996-4047-8d00-c2fc1a4755dc",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 445.985499979262,
+                "y": 1208.3244848583781
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "1602a2a2-d08e-4ef9-9478-c5a68af2d73f",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "8e8cb191-6be2-407b-8891-f34865313337",
+                  "templateId": "16bedade-d15b-422b-9e8c-b88c2e2ef6fc",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "8ab368f2-819d-4e95-9351-158c40b8e205",
+                  "templateId": "e49c1f26-fe0b-4448-96f9-a340d4cb7957",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "00b709ba-9452-47ab-8357-91c48cc58edc",
+                  "templateId": "d40cfc42-180a-4845-9acf-bf383c5bd8f5",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 453.35375067889476,
+                "y": 1404.3199779989197
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "58f38405-0d7b-4cc5-91bc-ecee4d17f8f9",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "ba8050c6-9ff3-48ea-8c5b-e6e50eb0011b",
+                  "templateId": "c593b7e3-a0a9-40e3-9bc2-954e07aae856",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "2c6351b0-2f1b-4725-a9d0-20f70eac6fab",
+                  "templateId": "666bcc54-186c-449f-9784-2eb947c7faf7",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "8ebd4fef-462d-4e52-83c8-88611722ed1b",
+                  "templateId": "abd15e70-7f08-40aa-ae35-a8082d930216",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 448.9327348449576,
+                "y": 1609.157339271942
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "Sum",
+              "id": "7c6fcd6a-1d0e-48d3-9431-7e8a2d4e1acb",
+              "title": "Total benefit",
+              "inputs": {
+                "n_inputs": {
+                  "id": "90010239-8d5b-45db-ae0c-fc3e626a8867",
+                  "templateId": "0f43b212-eb0d-4483-a93b-ba3c4737b972",
+                  "value": 6
+                },
+                "output_type": {
+                  "id": "49f778e0-603e-4cf3-af06-2e736d5d1d47",
+                  "templateId": "7989fce0-d5ae-4eb1-a49e-7e4f377b6bde",
+                  "value": "probabilistic"
+                },
+                "a": {
+                  "id": "6938adf3-97df-4433-a0a8-5606ab61aa64",
+                  "templateId": "1f4d88b2-aae4-4497-9381-5b2c843e40fa",
+                  "value": 0
+                },
+                "b": {
+                  "id": "1abf0983-b053-4fbd-ae0c-e1ab5591d07a",
+                  "templateId": "0cf37125-bf94-48c6-9aa8-aea8355b54a7",
+                  "value": 0
+                },
+                "c": {
+                  "id": "459710b8-b78a-4eeb-970e-906b6e8eb138",
+                  "templateId": "a3132c61-595a-49a0-bb54-97e49824c8fa",
+                  "value": 0
+                },
+                "d": {
+                  "id": "dec91cae-93af-4c4f-8c15-d4e7a78aaeb8",
+                  "templateId": "2f62d4cd-b98f-4e51-9d7d-7109b43dccfd",
+                  "value": 0
+                },
+                "e": {
+                  "id": "4f3a0bf8-cf45-4a28-a3ce-5b7ee2c16586",
+                  "templateId": "66fad236-1774-4c4e-9586-c78244658eb9",
+                  "value": 0
+                },
+                "f": {
+                  "id": "1a49ac0d-995f-4667-96f4-0232de080eba",
+                  "templateId": "edff0320-24e7-410f-bdff-5b86e6fec1a9",
+                  "value": 0
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "6248c861-6dd1-49e6-9691-e8d5fe9493da",
+                  "templateId": "e1984d46-cb7c-4098-bd45-f594c09ae6de",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 827.66091892732,
+                "y": 794.965636962517
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "Math",
+              "id": "c0f9dea0-2e3f-4a02-9aff-b5b1e29616c6",
+              "title": "NPV",
+              "inputs": {
+                "output_type": {
+                  "id": "31b20560-bbfb-4d9b-bcc6-1defe5bd64b1",
+                  "templateId": "b6774035-ed65-4472-aa3a-a4906fe55976",
+                  "value": "probabilistic"
+                },
+                "a": {
+                  "id": "56678940-f553-4a90-9cfd-a9a2d9c55b25",
+                  "templateId": "97239d82-ae38-4716-99c1-41be4ccb1037",
+                  "value": 1
+                },
+                "b": {
+                  "id": "4c8732c6-6e6b-48dc-9ba1-0ba334ba6e21",
+                  "templateId": "e403b2db-3083-4f94-ad3c-3300afd61c01",
+                  "value": 2
+                },
+                "operation": {
+                  "id": "111a4e54-f40b-4eec-b87e-9bebe75cd75b",
+                  "templateId": "91cdc8cc-b82b-482a-89f7-2565e6d62623",
+                  "value": "subtract"
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "e564d60d-cf5b-471d-84b9-c9bf9038ffe5",
+                  "templateId": "c1f338ad-1779-4acb-a890-ff5f79761c81",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 1364.1436632959562,
+                "y": 378.1006589826104
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "__baklava_SubgraphOutputNode",
+              "id": "2142db7a-5b55-4d37-be7d-63ef90b67382",
+              "title": "Subgraph Output",
+              "inputs": {
+                "name": {
+                  "id": "7cfa4eb5-f36c-44de-9e3d-93d0b46f8b24",
+                  "templateId": "92eaf199-7692-4c43-88f8-0b2399cc4d1e",
+                  "value": "NPV"
+                },
+                "placeholder": {
+                  "id": "20b8b177-4319-441e-8bbe-2befe1b18c92",
+                  "templateId": "2d0693c6-981d-435a-af05-d9f669d470cc"
+                }
+              },
+              "outputs": {
+                "output": {
+                  "id": "d91d1b17-9646-4443-a1f2-a031050c95f9",
+                  "templateId": "9cbb132b-32a9-4f67-8d44-2164e2bb502e",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 2045.7707413624858,
+                "y": 383.1969173826223
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "c76e6f06-d446-4616-9194-8847e042363d"
+            },
+            {
+              "type": "__baklava_GraphNode-d2bebd1d-1d5a-4707-bbcb-b8291f86a336",
+              "id": "106384e9-8b0a-4da3-9755-832ea2ae8202",
+              "title": "NPV_5_year",
+              "inputs": {
+                "0d0833e7-d6c4-426c-86f5-c97a21f9786d": {
+                  "id": "901e57fd-937e-41b6-8040-ad8a6cf5d817",
+                  "templateId": "b0698fc6-e41c-4b8b-a5ca-93d66e085702"
+                },
+                "7ea02a1f-ee09-4bc8-a53d-cac1daec3007": {
+                  "id": "443145c5-b3eb-479d-8ad6-9cd1e48c3c2a",
+                  "templateId": "7e31921a-408e-4613-b5d8-f19602d47c98"
+                }
+              },
+              "outputs": {
+                "ede7cf15-eee2-4dfc-8410-b57018a8ddb5": {
+                  "id": "09bd4e64-710a-4a9f-b8b3-7fab94e13955",
+                  "templateId": "a9fb9ead-6cbf-449f-ae87-14ce14d5414a",
+                  "value": null
+                },
+                "_calculationResults": {
+                  "id": "61b0342b-8763-4b1c-ba23-c04acaa1a341",
+                  "templateId": "62637e59-07b4-4515-bd73-aa7b0d7b70a1",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 1710.690462333321,
+                "y": 398.4857539744857
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphState": {
+                "id": "050ead21-ee23-4b82-8ac8-94d797655921",
+                "nodes": [
+                  {
+                    "type": "__baklava_SubgraphInputNode",
+                    "id": "d457b9da-e85d-4a5c-b3b0-afb96cf7e42f",
+                    "title": "Subgraph Input",
+                    "inputs": {
+                      "name": {
+                        "id": "c12dba84-9cb9-4163-86e0-77db7033cc1c",
+                        "templateId": "a0869c78-4cfb-4196-adca-91730dec29f8",
+                        "value": "Sample"
+                      }
+                    },
+                    "outputs": {
+                      "placeholder": {
+                        "id": "4a3c7891-03ba-4112-9fb3-33470ec8b546",
+                        "templateId": "8cd5a238-4dea-4fee-9eeb-c4ff74bf029e",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 322.95001220703125,
+                      "y": 190.1999969482422
+                    },
+                    "width": 200,
+                    "twoColumn": false,
+                    "graphInterfaceId": "0d0833e7-d6c4-426c-86f5-c97a21f9786d"
+                  },
+                  {
+                    "type": "__baklava_SubgraphInputNode",
+                    "id": "8ce06465-ab1c-4092-83e2-c9f9d02cd78b",
+                    "title": "Subgraph Input",
+                    "inputs": {
+                      "name": {
+                        "id": "f6730650-2da3-4c80-8489-0986c3aaec10",
+                        "templateId": "018f84cd-be4b-46a3-af9e-fde975da4e62",
+                        "value": "Discount"
+                      }
+                    },
+                    "outputs": {
+                      "placeholder": {
+                        "id": "2097d82d-d647-4fcf-9b87-50e9dd1ed298",
+                        "templateId": "7078e239-e51d-4056-b1fe-0cb8b90aa7e3",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 331.20001220703125,
+                      "y": 401.40000915527344
+                    },
+                    "width": 200,
+                    "twoColumn": false,
+                    "graphInterfaceId": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007"
+                  },
+                  {
+                    "type": "ToSeries",
+                    "id": "943a6495-ea47-4f50-ae13-1904d29063e4",
+                    "title": "To Series",
+                    "inputs": {
+                      "timestep_method": {
+                        "id": "28b05a04-4aab-4f92-9f32-dc5b7d79a929",
+                        "templateId": "4106d4cb-1f5d-4331-b16c-59e828e4754f",
+                        "value": "every"
+                      },
+                      "x": {
+                        "id": "5b305f7a-789a-425f-ad0c-579258c2075a",
+                        "templateId": "cf2860fa-2846-4e86-8230-c3dfe8069ee4",
+                        "value": 0
+                      },
+                      "n": {
+                        "id": "4b1aaedb-5ed6-4f2a-ae8e-97c6f33e9df7",
+                        "templateId": "e6f6c4a6-54ad-4c31-b595-e8a26ec16953",
+                        "value": 5
+                      }
+                    },
+                    "outputs": {
+                      "series": {
+                        "id": "1cf36c65-32ba-4239-9072-97b578644e08",
+                        "templateId": "c255b4c7-3b19-4e34-bebe-d3e70a5d15dc",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 629.2999877929688,
+                      "y": 197.35000610351562
+                    },
+                    "width": 200,
+                    "twoColumn": false
+                  },
+                  {
+                    "type": "NetPresentValue",
+                    "id": "19546160-5743-4438-9729-0b80e66119d2",
+                    "title": "Net Present Value",
+                    "inputs": {
+                      "x": {
+                        "id": "f7480c8e-254c-43d4-988d-e4d61620bb5a",
+                        "templateId": "594df24d-6034-4ef5-aaea-c1de01ad83e7",
+                        "value": [
+                          []
+                        ]
+                      },
+                      "discount": {
+                        "id": "fdd91dea-a03b-4be3-b4fe-7587a86b5e69",
+                        "templateId": "3accb6f3-544e-4567-a26a-a3f460c4e4f6",
+                        "value": 10
+                      }
+                    },
+                    "outputs": {
+                      "sample": {
+                        "id": "0df31a11-cec9-4cae-8704-cea4fbf27505",
+                        "templateId": "e73801b9-a7de-4b61-a4a4-d37dc056f879",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 913.0999755859375,
+                      "y": 329.8999786376953
+                    },
+                    "width": 200,
+                    "twoColumn": false
+                  },
+                  {
+                    "type": "__baklava_SubgraphOutputNode",
+                    "id": "c8c9389f-bdb0-4be1-9d84-1a8892a81887",
+                    "title": "NPV",
+                    "inputs": {
+                      "name": {
+                        "id": "9b673830-715b-4843-af8b-9d9cf797bce2",
+                        "templateId": "a9c0ee6d-1053-4642-b803-c801d39890fd",
+                        "value": "NPV"
+                      },
+                      "placeholder": {
+                        "id": "aeb5c272-c46a-4e2a-a2ca-4db361ed36bd",
+                        "templateId": "f2ba6e60-7c7c-4d69-aadc-f8317658075b"
+                      }
+                    },
+                    "outputs": {
+                      "output": {
+                        "id": "b8f04b03-bf0c-4579-a6e2-6b2ecaf5af73",
+                        "templateId": "1a21ac51-b8a2-4090-832e-b8814aaab385",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 1206.800048828125,
+                      "y": 254.5500030517578
+                    },
+                    "width": 200,
+                    "twoColumn": false,
+                    "graphInterfaceId": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5"
+                  }
+                ],
+                "connections": [
+                  {
+                    "id": "d3ec8828-91ec-410e-8dd9-0f0d5d710ba6",
+                    "from": "4a3c7891-03ba-4112-9fb3-33470ec8b546",
+                    "to": "5b305f7a-789a-425f-ad0c-579258c2075a"
+                  },
+                  {
+                    "id": "73c5bc16-cb9b-4391-bcf7-07dcaa88e88d",
+                    "from": "1cf36c65-32ba-4239-9072-97b578644e08",
+                    "to": "f7480c8e-254c-43d4-988d-e4d61620bb5a"
+                  },
+                  {
+                    "id": "9d49b3b6-e59b-44e5-920d-b6de894a98a1",
+                    "from": "2097d82d-d647-4fcf-9b87-50e9dd1ed298",
+                    "to": "fdd91dea-a03b-4be3-b4fe-7587a86b5e69"
+                  },
+                  {
+                    "id": "29668d15-7c7a-400c-93ea-640491c33b78",
+                    "from": "0df31a11-cec9-4cae-8704-cea4fbf27505",
+                    "to": "aeb5c272-c46a-4e2a-a2ca-4db361ed36bd"
+                  }
+                ],
+                "inputs": [
+                  {
+                    "id": "0d0833e7-d6c4-426c-86f5-c97a21f9786d",
+                    "name": "Sample",
+                    "nodeId": "d457b9da-e85d-4a5c-b3b0-afb96cf7e42f",
+                    "nodeInterfaceId": "4a3c7891-03ba-4112-9fb3-33470ec8b546"
+                  },
+                  {
+                    "id": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007",
+                    "name": "Discount",
+                    "nodeId": "8ce06465-ab1c-4092-83e2-c9f9d02cd78b",
+                    "nodeInterfaceId": "2097d82d-d647-4fcf-9b87-50e9dd1ed298"
+                  }
+                ],
+                "outputs": [
+                  {
+                    "id": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5",
+                    "name": "NPV",
+                    "nodeId": "c8c9389f-bdb0-4be1-9d84-1a8892a81887",
+                    "nodeInterfaceId": "b8f04b03-bf0c-4579-a6e2-6b2ecaf5af73"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "7c8d97a7-f0ef-42ab-9d72-25c9adbdc980",
+              "title": "Subgraph Input",
+              "inputs": {
+                "name": {
+                  "id": "121ffd2e-7eb5-4633-bc3b-10c37501d3e6",
+                  "templateId": "4186e427-d8fa-4cc2-8e98-60f385f63f1d",
+                  "value": "Discount"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "28cfc476-8338-4b19-ac51-39c0c9788b3f",
+                  "templateId": "20dc5997-206b-44da-8161-273aedf98a20",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 1365.4176665041314,
+                "y": 694.0697234444203
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "f987318c-08e4-4e03-b5a9-0da23543ff2a"
+            },
+            {
+              "type": "__baklava_SubgraphInputNode",
+              "id": "6d542e0e-11c7-4187-8815-8258bd4dbf05",
+              "title": "Risk adjustment",
+              "inputs": {
+                "name": {
+                  "id": "9553b9ff-d85d-4825-9bd2-1bbb33f509e9",
+                  "templateId": "449df424-ea07-4bdd-9641-96210d855f61",
+                  "value": "Risk adjustment"
+                }
+              },
+              "outputs": {
+                "placeholder": {
+                  "id": "8f623732-180c-4d9b-8ec5-2b0601f49569",
+                  "templateId": "ce3c1250-bae8-4a66-b704-21de93af3a78",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 637.3095128346337,
+                "y": 632.1512848461032
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphInterfaceId": "97a9355e-e2b7-4bd8-8c05-6abf0a11dc95"
+            },
+            {
+              "type": "TypeConstraint",
+              "id": "886368c7-8333-4990-845b-5224f560f44d",
+              "title": "Type Constraint",
+              "inputs": {
+                "type": {
+                  "id": "2b20cde1-0d78-429d-9aa0-218c262791a2",
+                  "templateId": "c516a390-f61c-4514-a783-99350ee3a7a4",
+                  "value": "probabilistic"
+                },
+                "sample": {
+                  "id": "4d9f0dc9-7bc2-4f79-9631-dc62d79a0049",
+                  "templateId": "4f550356-57cc-4ac7-8ca9-06457b7d754d",
+                  "value": null
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "295bcf79-2594-47a3-88f0-6ff2b4277a47",
+                  "templateId": "79d58634-5af5-4ece-974b-89296f58ed1a",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 848.0077406383822,
+                "y": 434.49303157571035
+              },
+              "width": 200,
+              "twoColumn": false
+            },
+            {
+              "type": "Math",
+              "id": "11cb07ef-6c36-4e24-8bc7-3cf051bb9ab8",
+              "title": "Math",
+              "inputs": {
+                "output_type": {
+                  "id": "f1ca676d-750b-4cbb-93d0-7ea480d33a1b",
+                  "templateId": "e55bf1f7-c1b8-4c00-b242-a72b92193367",
+                  "value": "probabilistic"
+                },
+                "a": {
+                  "id": "4fe632b3-2b00-46b2-987a-69dc7bc9f0fd",
+                  "templateId": "587237c5-d8c8-41e9-a7ee-af264ba63811",
+                  "value": 1
+                },
+                "b": {
+                  "id": "7e6dc550-86ed-44c1-b737-7caa9257d2f3",
+                  "templateId": "c64bb3de-66ff-4882-be92-a7160f9187e7",
+                  "value": 2
+                },
+                "operation": {
+                  "id": "2a763d85-fb61-4338-9cc8-bf66d36bbdad",
+                  "templateId": "3a527d0e-85c8-4038-9457-588466bb1aaf",
+                  "value": "multiply"
+                }
+              },
+              "outputs": {
+                "sample": {
+                  "id": "182c5e4c-8235-4a6d-9f1a-558d47b47e7f",
+                  "templateId": "31098d16-adeb-48e5-8ee6-65a1704766ba",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 1117.0423676537578,
+                "y": 635.5828396862252
+              },
+              "width": 200,
+              "twoColumn": false
+            }
+          ],
+          "connections": [
+            {
+              "id": "5f2ff746-8b66-4d29-b75e-063d28a66e2d",
+              "from": "604d991d-5473-4f05-9e6a-bcf7d3ddecbc",
+              "to": "e4def426-cd4a-4c3b-bb3a-74869b2f3634"
+            },
+            {
+              "id": "e6d3c39d-cbf4-492d-ae42-82e81d68e1a6",
+              "from": "64ab503b-bf07-46b3-a41e-182a9d244bf5",
+              "to": "a02f5d02-9927-4e58-a6a8-63a81c880890"
+            },
+            {
+              "id": "fffcde29-53cb-4a66-850a-d33f9c37eebf",
+              "from": "92a17a07-3b7c-430a-8c47-07db4e768894",
+              "to": "0b01a6dd-7e0d-43a0-a9c7-b86b5dcdcd53"
+            },
+            {
+              "id": "31c4458c-9c94-48e2-879a-d87be2f008df",
+              "from": "7e14c08d-8e22-47fc-a482-1f18a42a1a61",
+              "to": "1b9c61e0-0c9e-4142-8592-a27d587a0b88"
+            },
+            {
+              "id": "8ade4e14-b0c6-4925-b3e8-717fa3d1fa93",
+              "from": "6d98513b-8cfe-46d3-8a20-6d98fb2f6de7",
+              "to": "e184fd4a-7edd-4f05-ab59-34cd1aab05f3"
+            },
+            {
+              "id": "b759ebcf-a738-4a56-a8a5-1e3b96958501",
+              "from": "0a6883b9-8144-43b2-870f-2b8ca8496623",
+              "to": "f4d6030d-5513-46e6-8a3e-ace848b5f3e1"
+            },
+            {
+              "id": "b96957d1-8d1c-4dc3-a60d-1ff462d368c9",
+              "from": "1c2c7c92-560b-4e5e-821a-c008379f7e19",
+              "to": "20284478-23e4-4d13-9f10-f42c3862a287"
+            },
+            {
+              "id": "e5414df6-5d3c-4c8d-9ef7-8618d83895e4",
+              "from": "a681b8fc-8383-45f6-84ea-cdb850560cbc",
+              "to": "bf59aa77-6483-4b24-84b3-bd443b5b5b17"
+            },
+            {
+              "id": "f72022a2-f3e1-43cc-b7ca-1df8bbaabef8",
+              "from": "2e82ed7a-f78c-400e-a755-f247e5266e25",
+              "to": "19181f67-2fd5-42a1-bbde-9c72e44475d5"
+            },
+            {
+              "id": "07719c84-fd96-4fee-8d30-cc46468aa94f",
+              "from": "06776058-7fd4-4800-a175-b8d19c48c022",
+              "to": "e5670d49-14c0-4bc9-b21e-51972d82910e"
+            },
+            {
+              "id": "34cc21d1-01af-43fe-8b51-da3f4762508d",
+              "from": "2094a216-84ef-4c6c-94bf-38221f762659",
+              "to": "0611f5be-d6b8-45df-bf77-6c9f8ec17786"
+            },
+            {
+              "id": "de6ed0a3-9877-46a7-9437-9a4bb13010c1",
+              "from": "f7efb9e6-3a4c-40e7-a16d-da36b97522f3",
+              "to": "8ab368f2-819d-4e95-9351-158c40b8e205"
+            },
+            {
+              "id": "3a9fca81-ef62-4188-9b32-ce79c026003e",
+              "from": "113636f8-2411-49fe-9252-db53214df6f4",
+              "to": "6938adf3-97df-4433-a0a8-5606ab61aa64"
+            },
+            {
+              "id": "39dae411-49e2-47b3-8339-2dd8c31840ba",
+              "from": "079fbff0-ffe0-4e8b-94bc-c0e04618ded3",
+              "to": "1abf0983-b053-4fbd-ae0c-e1ab5591d07a"
+            },
+            {
+              "id": "8303ea63-5888-45f9-9d52-f1d138335ff6",
+              "from": "79b7014f-0e0f-4a25-9d57-a3f892c13976",
+              "to": "459710b8-b78a-4eeb-970e-906b6e8eb138"
+            },
+            {
+              "id": "894e5808-b3ee-4489-b5f6-83d52e6c7c5c",
+              "from": "00b709ba-9452-47ab-8357-91c48cc58edc",
+              "to": "dec91cae-93af-4c4f-8c15-d4e7a78aaeb8"
+            },
+            {
+              "id": "d5e3b46a-0f51-4df2-a6a3-6529613ff964",
+              "from": "8ebd4fef-462d-4e52-83c8-88611722ed1b",
+              "to": "4f3a0bf8-cf45-4a28-a3ce-5b7ee2c16586"
+            },
+            {
+              "id": "50f0823e-cb29-4160-ad65-3f6203e1d90c",
+              "from": "e564d60d-cf5b-471d-84b9-c9bf9038ffe5",
+              "to": "901e57fd-937e-41b6-8040-ad8a6cf5d817"
+            },
+            {
+              "id": "2459d5c4-5dbb-4e85-b0be-fe6232cab281",
+              "from": "09bd4e64-710a-4a9f-b8b3-7fab94e13955",
+              "to": "20b8b177-4319-441e-8bbe-2befe1b18c92"
+            },
+            {
+              "id": "70f24778-6695-489a-8b10-08280c39cbb6",
+              "from": "28cfc476-8338-4b19-ac51-39c0c9788b3f",
+              "to": "443145c5-b3eb-479d-8ad6-9cd1e48c3c2a"
+            },
+            {
+              "id": "3af876e8-ce46-47d2-8354-799fc9dd70c1",
+              "from": "79b6a782-2b5c-4c16-a2ea-23a5e7e52617",
+              "to": "2c6351b0-2f1b-4725-a9d0-20f70eac6fab"
+            },
+            {
+              "id": "92d93122-649c-4ab7-96af-59bbc22c3eea",
+              "from": "bb568e7c-f991-4900-b2d3-28d0e0f24f2c",
+              "to": "4c8732c6-6e6b-48dc-9ba1-0ba334ba6e21"
+            },
+            {
+              "id": "104fd42c-8d87-48c7-98af-990ea1b2bbbd",
+              "from": "8f623732-180c-4d9b-8ec5-2b0601f49569",
+              "to": "4d9f0dc9-7bc2-4f79-9631-dc62d79a0049"
+            },
+            {
+              "id": "ea9c42de-483c-4eb2-b6c6-42773570f93b",
+              "from": "295bcf79-2594-47a3-88f0-6ff2b4277a47",
+              "to": "4fe632b3-2b00-46b2-987a-69dc7bc9f0fd"
+            },
+            {
+              "id": "d3f432ac-b34e-4476-88a8-043c54364c93",
+              "from": "6248c861-6dd1-49e6-9691-e8d5fe9493da",
+              "to": "7e6dc550-86ed-44c1-b737-7caa9257d2f3"
+            },
+            {
+              "id": "75d96064-1f33-456b-a7d8-b59a0154f0cf",
+              "from": "182c5e4c-8235-4a6d-9f1a-558d47b47e7f",
+              "to": "56678940-f553-4a90-9cfd-a9a2d9c55b25"
+            }
+          ],
+          "inputs": [
+            {
+              "id": "f851acf0-34a8-4742-bfdd-4f3dcc694447",
+              "name": "Youtube cost",
+              "nodeId": "b43293e8-bdfa-4f98-a6e5-abb7537734db",
+              "nodeInterfaceId": "604d991d-5473-4f05-9e6a-bcf7d3ddecbc"
+            },
+            {
+              "id": "1d2e1ba1-b788-40ed-9c91-0051cdbb23a6",
+              "name": "Contest cost",
+              "nodeId": "f9ee8161-d47e-44f8-9e05-6cdd19959bb2",
+              "nodeInterfaceId": "64ab503b-bf07-46b3-a41e-182a9d244bf5"
+            },
+            {
+              "id": "48324829-2738-4bcb-a1d3-2bcf01dd14e1",
+              "name": "Influencer cost",
+              "nodeId": "0c58339f-24d3-4f3a-a57a-8ed47aa91d66",
+              "nodeInterfaceId": "92a17a07-3b7c-430a-8c47-07db4e768894"
+            },
+            {
+              "id": "30f00980-fa19-49a2-8fed-e24632e6f0ce",
+              "name": "Nutritionist cost",
+              "nodeId": "ee666dc4-c34d-472f-9e51-e4aec107a79c",
+              "nodeInterfaceId": "7e14c08d-8e22-47fc-a482-1f18a42a1a61"
+            },
+            {
+              "id": "96502214-297a-4048-ab18-8ce7abdac72f",
+              "name": "Improved knowledge",
+              "nodeId": "f69b1f4a-ac69-4497-a9cc-eb1f8e18f93d",
+              "nodeInterfaceId": "06776058-7fd4-4800-a175-b8d19c48c022"
+            },
+            {
+              "id": "2b07a986-a24b-4447-ab03-ee2830a6a0a6",
+              "name": "Motivation to change",
+              "nodeId": "5221e70f-ebd2-4283-88be-f9a4d38e991a",
+              "nodeInterfaceId": "2094a216-84ef-4c6c-94bf-38221f762659"
+            },
+            {
+              "id": "10e26a96-5ebc-4ff7-993e-bf1ddf83d129",
+              "name": "Information value",
+              "nodeId": "1af71d19-c37a-49aa-abc4-c0d8dabc5c28",
+              "nodeInterfaceId": "2e82ed7a-f78c-400e-a755-f247e5266e25"
+            },
+            {
+              "id": "576c932d-e10a-4483-b7f8-d7512113e060",
+              "name": "Healthy food choice",
+              "nodeId": "b526d6f1-ee55-4732-8bee-6b6fe0d55bed",
+              "nodeInterfaceId": "f7efb9e6-3a4c-40e7-a16d-da36b97522f3"
+            },
+            {
+              "id": "2310ace6-1442-4c2c-b2a0-69e24edb59e0",
+              "name": "Positive health effect",
+              "nodeId": "81b1ba4d-bcc2-4092-984d-16db42466168",
+              "nodeInterfaceId": "79b6a782-2b5c-4c16-a2ea-23a5e7e52617"
+            },
+            {
+              "id": "f987318c-08e4-4e03-b5a9-0da23543ff2a",
+              "name": "Discount",
+              "nodeId": "7c8d97a7-f0ef-42ab-9d72-25c9adbdc980",
+              "nodeInterfaceId": "28cfc476-8338-4b19-ac51-39c0c9788b3f"
+            },
+            {
+              "id": "97a9355e-e2b7-4bd8-8c05-6abf0a11dc95",
+              "name": "Risk adjustment",
+              "nodeId": "6d542e0e-11c7-4187-8815-8258bd4dbf05",
+              "nodeInterfaceId": "8f623732-180c-4d9b-8ec5-2b0601f49569"
+            }
+          ],
+          "outputs": [
+            {
+              "id": "c76e6f06-d446-4616-9194-8847e042363d",
+              "name": "NPV",
+              "nodeId": "2142db7a-5b55-4d37-be7d-63ef90b67382",
+              "nodeInterfaceId": "d91d1b17-9646-4443-a1f2-a031050c95f9"
+            }
+          ]
+        }
+      },
+      {
+        "type": "Estimate",
+        "id": "83adbc15-66cc-4f84-8b5b-f19ad3e3c1fb",
+        "title": "Youtube cost",
+        "inputs": {
+          "distribution": {
+            "id": "a5d02707-d9d1-4d15-970d-de96cb707741",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "82d8817d-45a6-457b-a591-da5403c645d9",
+            "value": ""
+          },
+          "lower": {
+            "id": "f5a3d9c9-8340-4017-993d-5da3b74f1385",
+            "value": 12000
+          },
+          "upper": {
+            "id": "12b2c34e-9e56-4931-a12e-73e156deac21",
+            "value": 30000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "86adb5e7-f0b8-4e9b-9b7e-187069b5592f",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 553.2560070310004,
+          "y": -78.56085150249433
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "12151a0c-a7a7-4204-be52-3c08ecec0cb3",
+        "title": "Nutritionist cost",
+        "inputs": {
+          "distribution": {
+            "id": "055da552-75e6-471d-96c3-cf9e97ab1c33",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "adc502d6-a60c-41f4-a585-cda0b3e3ecff",
+            "value": ""
+          },
+          "lower": {
+            "id": "3d49bc98-9850-4370-bf9c-38683c411cfd",
+            "value": 20000
+          },
+          "upper": {
+            "id": "75700787-5bcd-45bd-a263-de9a01a20c36",
+            "value": 40000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "8a770cef-baba-4d2f-b2ed-c88b8afa2c10",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 587.2226894412161,
+          "y": 192.500272649076
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "5df32dd6-382a-4a76-b776-c7b58d6a37e9",
+        "title": "Contest cost",
+        "inputs": {
+          "distribution": {
+            "id": "a2443bce-9274-4863-93f8-f02574fb5cd6",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "c94f32fc-92c4-43fe-8759-8a377b295f04",
+            "value": ""
+          },
+          "lower": {
+            "id": "cf67c83b-ddbd-4e09-bde2-5333b39cc663",
+            "value": 4000
+          },
+          "upper": {
+            "id": "36699114-3efc-49ff-a656-85458dc29146",
+            "value": 6000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "731b0d6f-f3fe-4976-a2fe-ce56dfc42c18",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 158.10808905692676,
+          "y": -71.03652716002185
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "180f2efa-7ea4-4094-9fd2-96a4cb320885",
+        "title": "Influencer cost",
+        "inputs": {
+          "distribution": {
+            "id": "a3396ee8-fdfe-4824-92c1-52e0986f3ab6",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "72a4871a-4bea-42d3-8a6b-65892e3c5b3f",
+            "value": ""
+          },
+          "lower": {
+            "id": "b82727f9-3a6a-4c21-90b1-ac1ef8065b0c",
+            "value": 50000
+          },
+          "upper": {
+            "id": "23645eeb-f609-4d8c-9826-dcbffd36b876",
+            "value": 70000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "9d38b9ce-5b37-4dd5-8534-674e62fbc062",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 345.3580592822719,
+          "y": 152.6229274312538
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "41f0906a-2c58-4795-ac77-b2b91b9ff4ab",
+        "title": "Improved knowledge",
+        "inputs": {
+          "distribution": {
+            "id": "2c9fa4d6-ebc6-4e7e-85f5-ee6be6aaadaa",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "7051a665-5e16-47e2-a92f-cf761e63b760",
+            "value": ""
+          },
+          "lower": {
+            "id": "be9a579b-9fdb-4049-9144-04dd07fd8342",
+            "value": 30000
+          },
+          "upper": {
+            "id": "51ca7823-90e5-469d-8e73-b8046b5fb9b5",
+            "value": 50000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "3965b0d7-c423-4151-8ca8-d028cab35f41",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 243.93095900736114,
+          "y": 430.0301785624532
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "dd74da18-ebde-49f7-9c1e-d75843a7f623",
+        "title": "Motivation to change",
+        "inputs": {
+          "distribution": {
+            "id": "b3512760-a3a8-4c70-8f32-d763d78b79e4",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "95e88fe0-f7e6-4521-9067-7dce52ab6a24",
+            "value": ""
+          },
+          "lower": {
+            "id": "b9e6c7a8-bbff-41b7-99fe-0ad4299b8265",
+            "value": 20000
+          },
+          "upper": {
+            "id": "68a99ce4-a1d9-48e9-be13-b8961c7f8ebe",
+            "value": 50000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "fc98161a-0b8c-404e-99f5-27de0a41cf07",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 477.126391307289,
+          "y": 508.9178489593491
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "090e7ad9-8421-4485-b292-060da6b13c32",
+        "title": "Information value",
+        "inputs": {
+          "distribution": {
+            "id": "4bfc3c36-dbdf-427d-a4e9-df20206ece0c",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "b4a9e836-7863-49f5-8afd-f3369dd29441",
+            "value": ""
+          },
+          "lower": {
+            "id": "07432e11-e5f0-4385-a0b3-43bc197481d7",
+            "value": 30000
+          },
+          "upper": {
+            "id": "87ab6cda-27a5-43fd-8573-ab8aed033168",
+            "value": 60000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "2ac1e546-2493-41e3-92c1-52894fd01f38",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 702.5197711030081,
+          "y": 668.4269791985204
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "fa4096bc-b1d2-46cc-9795-affcb7dccfba",
+        "title": "Healthy food choice",
+        "inputs": {
+          "distribution": {
+            "id": "143bcc86-1920-454d-80e7-cc2def6b18b9",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "6cadc7e9-920e-4bbb-b40e-6b9c83addff6",
+            "value": ""
+          },
+          "lower": {
+            "id": "8c6f62bc-b12c-45a2-91cd-2da7f5ec6337",
+            "value": 30000
+          },
+          "upper": {
+            "id": "205be577-40d2-4da3-ade5-47aac98a7ca3",
+            "value": 70900
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "30a0da4c-301b-458a-b9a9-e82c4020185f",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 945.2510453525244,
+          "y": 682.2972947615584
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "cc62df74-8275-49b4-9cfa-8791321c9b60",
+        "title": "Positive health effect",
+        "inputs": {
+          "distribution": {
+            "id": "3e92125f-9708-4ba2-9ccf-33ab8e82442f",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "7c769494-1824-493e-b541-8f133db4bde8",
+            "value": ""
+          },
+          "lower": {
+            "id": "06f7741e-32b7-4034-a95e-33ac9290723d",
+            "value": 30000
+          },
+          "upper": {
+            "id": "68abd774-4c2e-4cac-a07c-1211db38d015",
+            "value": 40000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "fab21e01-8cfd-4b33-8e04-41c6516a2bc1",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 1187.982319602041,
+          "y": 523.6551010170964
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "091cc3fb-f5c6-4fbd-93a1-f9c023e4264d",
+        "title": "Discount",
+        "inputs": {
+          "distribution": {
+            "id": "08ae84f5-3b8a-4859-be5a-9d3f31ba97dd",
+            "value": "deterministic"
+          },
+          "comment": {
+            "id": "42a43231-184e-4792-a2df-8caf38d5c16b",
+            "value": ""
+          },
+          "value": {
+            "id": "f8bb8178-9b24-4d96-9430-dfa16123db74",
+            "value": 5
+          }
+        },
+        "outputs": {
+          "value": {
+            "id": "b1e71f91-87fa-4b60-b3ee-4609a5ad7f9c",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 1402.1060262307722,
+          "y": 616.4131287490497
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Result",
+        "id": "b3084fb3-46a4-4f32-a7a5-1491a0bc2f4c",
+        "title": "Result",
+        "inputs": {
+          "sample": {
+            "id": "f2ad79aa-d80c-4964-8c68-f085a5f8d3e2",
+            "value": null
+          }
+        },
+        "outputs": {
+          "display": {
+            "id": "4f9925ad-8127-4693-8234-bf391e574198",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 2112.2088353001254,
+          "y": 76.54770290060304
+        },
+        "width": 300,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "bb1cfbeb-8aaf-48a5-8372-b997de2a45bf",
+        "title": "Risk adjustment",
+        "inputs": {
+          "distribution": {
+            "id": "b9f8f5b5-6ff6-4df4-b1a2-9fc9d823c1c7",
+            "value": "tnorm_0_1"
+          },
+          "comment": {
+            "id": "6e78b794-046a-427c-9dad-c28f518dedea",
+            "value": ""
+          },
+          "lower": {
+            "id": "db324108-a438-4861-80d7-75a82b472691",
+            "value": 0.6
+          },
+          "upper": {
+            "id": "56d9f897-b5d1-4681-83b9-33dc4f6e56da",
+            "value": 0.9
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "912afdcd-7da1-4fe6-b101-fec2081ead85",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 1221.4352555216494,
+          "y": 770.9592364886888
+        },
+        "width": 200,
+        "twoColumn": false
+      }
+    ],
+    "connections": [
+      {
+        "id": "46dc2ee9-bab8-4a21-8bcc-d14b6d038c76",
+        "from": "86adb5e7-f0b8-4e9b-9b7e-187069b5592f",
+        "to": "b0fb3457-a783-4b6c-9b97-680127c8c0c7"
+      },
+      {
+        "id": "fb578e13-95e4-42b5-95db-dd317fc508ab",
+        "from": "731b0d6f-f3fe-4976-a2fe-ce56dfc42c18",
+        "to": "219219c4-53f1-4b96-844b-df707b50a46a"
+      },
+      {
+        "id": "6a257a43-5578-4b40-8ed7-5b6395eab7cb",
+        "from": "9d38b9ce-5b37-4dd5-8534-674e62fbc062",
+        "to": "228eccea-bacf-4ba3-94f3-24c4e28e08bc"
+      },
+      {
+        "id": "52b5ecd8-7ea2-40cc-8877-5a0274afc0c9",
+        "from": "8a770cef-baba-4d2f-b2ed-c88b8afa2c10",
+        "to": "b5a0a999-3b70-4983-9a4e-5701416dcf14"
+      },
+      {
+        "id": "9419b72e-00a4-4905-ae9a-818cec576451",
+        "from": "3965b0d7-c423-4151-8ca8-d028cab35f41",
+        "to": "f44d0b85-d0a6-4cd8-8ff2-f714bdb1e4cc"
+      },
+      {
+        "id": "b83fc2de-96d6-4780-b2d8-d7d1662d6fe4",
+        "from": "fc98161a-0b8c-404e-99f5-27de0a41cf07",
+        "to": "7edb61e1-850a-4e8d-a0ba-68971254ad02"
+      },
+      {
+        "id": "ec1de0f4-4f97-41c2-ac6f-66587bdf7087",
+        "from": "2ac1e546-2493-41e3-92c1-52894fd01f38",
+        "to": "3d6356a7-7dd8-4cf7-a8f8-88ddaaa7e3c0"
+      },
+      {
+        "id": "1d1fc3de-c141-446d-b528-fd19667cdcf0",
+        "from": "30a0da4c-301b-458a-b9a9-e82c4020185f",
+        "to": "3bff7b07-5784-4b5e-af00-15c802cace5a"
+      },
+      {
+        "id": "a300f3ca-8d87-4690-85a2-b01527a3f835",
+        "from": "fab21e01-8cfd-4b33-8e04-41c6516a2bc1",
+        "to": "465a7019-3e65-43ed-aa51-d9dcf5ba9349"
+      },
+      {
+        "id": "7633f7ac-9db5-404f-904e-e840604564ea",
+        "from": "b1e71f91-87fa-4b60-b3ee-4609a5ad7f9c",
+        "to": "915ceaac-a852-4a87-be6b-ff46270479d4"
+      },
+      {
+        "id": "46fb0527-37b7-4074-9690-31060a428abc",
+        "from": "0999e43d-9e04-4f37-aaaa-5394f06aa03b",
+        "to": "f2ad79aa-d80c-4964-8c68-f085a5f8d3e2"
+      },
+      {
+        "id": "945e3b93-ab9a-4bf0-80ab-0be62a5f4285",
+        "from": "912afdcd-7da1-4fe6-b101-fec2081ead85",
+        "to": "6406abaa-ec33-4114-83df-43959e7be28f"
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "panning": {
+      "x": 40.988676446941554,
+      "y": 213.88439736353172
+    },
+    "scaling": 0.6710371534983566
+  },
+  "graphTemplates": [
+    {
+      "id": "d2bebd1d-1d5a-4707-bbcb-b8291f86a336",
+      "name": "NPV_5_year",
+      "nodes": [
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "b36763f7-2aca-4da2-aa66-5943fe73b667",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "a0869c78-4cfb-4196-adca-91730dec29f8",
+              "templateId": "17295fda-5944-437f-b222-04dbca70034c",
+              "value": "Sample"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "8cd5a238-4dea-4fee-9eeb-c4ff74bf029e",
+              "templateId": "6868b981-0ecd-437d-bf7b-b869c77db352",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 322.95001220703125,
+            "y": 190.1999969482422
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "0d0833e7-d6c4-426c-86f5-c97a21f9786d"
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "426ec77d-6c6d-47c3-9bc4-21825ade0dbb",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "018f84cd-be4b-46a3-af9e-fde975da4e62",
+              "templateId": "e90fd30a-b851-4728-92ce-23f4492b47ca",
+              "value": "Discount"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "7078e239-e51d-4056-b1fe-0cb8b90aa7e3",
+              "templateId": "9233d185-cc3c-4d70-8d45-ab4c2c773ec7",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 331.20001220703125,
+            "y": 401.40000915527344
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007"
+        },
+        {
+          "type": "ToSeries",
+          "id": "47485672-9a16-4f2c-93fe-1241a643f0f8",
+          "title": "To Series",
+          "inputs": {
+            "timestep_method": {
+              "id": "4106d4cb-1f5d-4331-b16c-59e828e4754f",
+              "templateId": "cca5fdd0-b6be-475e-a4b8-c2ef52af2b9a",
+              "value": "every"
+            },
+            "x": {
+              "id": "cf2860fa-2846-4e86-8230-c3dfe8069ee4",
+              "templateId": "727a517e-4fa4-4bdb-856e-69a5a810f6ee",
+              "value": 0
+            },
+            "n": {
+              "id": "e6f6c4a6-54ad-4c31-b595-e8a26ec16953",
+              "templateId": "e9efcbda-99ee-4d56-a7d6-cc234d0dc0f3",
+              "value": 5
+            }
+          },
+          "outputs": {
+            "series": {
+              "id": "c255b4c7-3b19-4e34-bebe-d3e70a5d15dc",
+              "templateId": "0511f4d5-8567-4b14-b7f4-8ccb859faca5",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 629.2999877929688,
+            "y": 197.35000610351562
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "NetPresentValue",
+          "id": "6f45caab-109e-49a7-892f-430ff1e1430c",
+          "title": "Net Present Value",
+          "inputs": {
+            "x": {
+              "id": "594df24d-6034-4ef5-aaea-c1de01ad83e7",
+              "templateId": "db633248-e9d4-471c-b6b5-12c68b439c7e",
+              "value": [
+                []
+              ]
+            },
+            "discount": {
+              "id": "3accb6f3-544e-4567-a26a-a3f460c4e4f6",
+              "templateId": "24e7b540-3baa-4ace-ad79-61833ab62702",
+              "value": 10
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "e73801b9-a7de-4b61-a4a4-d37dc056f879",
+              "templateId": "5b5d3422-3a71-43c0-bd44-17092a980421",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 913.0999755859375,
+            "y": 329.8999786376953
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "__baklava_SubgraphOutputNode",
+          "id": "6c9e4ee0-65fd-416e-a18f-737dd9d45a27",
+          "title": "NPV",
+          "inputs": {
+            "name": {
+              "id": "a9c0ee6d-1053-4642-b803-c801d39890fd",
+              "templateId": "5513404c-5cd8-40eb-9798-26df9d09b5a5",
+              "value": "NPV"
+            },
+            "placeholder": {
+              "id": "f2ba6e60-7c7c-4d69-aadc-f8317658075b",
+              "templateId": "cdb9c736-1cef-4adf-a4c5-a00afac2c0f8"
+            }
+          },
+          "outputs": {
+            "output": {
+              "id": "1a21ac51-b8a2-4090-832e-b8814aaab385",
+              "templateId": "aa8e431d-21de-4a80-b37a-c6cd319f4b93",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 1206.800048828125,
+            "y": 254.5500030517578
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5"
+        }
+      ],
+      "connections": [
+        {
+          "id": "6460379b-a2e5-41f5-89d8-eff27fe221cc",
+          "from": "8cd5a238-4dea-4fee-9eeb-c4ff74bf029e",
+          "to": "cf2860fa-2846-4e86-8230-c3dfe8069ee4"
+        },
+        {
+          "id": "554b3328-99f9-4c85-b693-648a54568a35",
+          "from": "c255b4c7-3b19-4e34-bebe-d3e70a5d15dc",
+          "to": "594df24d-6034-4ef5-aaea-c1de01ad83e7"
+        },
+        {
+          "id": "9e7e985b-08f9-4f54-8662-9b709f2103a8",
+          "from": "7078e239-e51d-4056-b1fe-0cb8b90aa7e3",
+          "to": "3accb6f3-544e-4567-a26a-a3f460c4e4f6"
+        },
+        {
+          "id": "a4434760-5789-4e8e-9605-f1ebd78e849d",
+          "from": "e73801b9-a7de-4b61-a4a4-d37dc056f879",
+          "to": "f2ba6e60-7c7c-4d69-aadc-f8317658075b"
+        }
+      ],
+      "inputs": [
+        {
+          "id": "0d0833e7-d6c4-426c-86f5-c97a21f9786d",
+          "name": "Sample",
+          "nodeId": "b36763f7-2aca-4da2-aa66-5943fe73b667",
+          "nodeInterfaceId": "8cd5a238-4dea-4fee-9eeb-c4ff74bf029e"
+        },
+        {
+          "id": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007",
+          "name": "Discount",
+          "nodeId": "426ec77d-6c6d-47c3-9bc4-21825ade0dbb",
+          "nodeInterfaceId": "7078e239-e51d-4056-b1fe-0cb8b90aa7e3"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5",
+          "name": "NPV",
+          "nodeId": "6c9e4ee0-65fd-416e-a18f-737dd9d45a27",
+          "nodeInterfaceId": "1a21ac51-b8a2-4090-832e-b8814aaab385"
+        }
+      ]
+    },
+    {
+      "id": "91346172-e5bf-4e74-bf1b-2ab47c692772",
+      "name": "Subgraph",
+      "nodes": [
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "0ca6c36a-5b52-4d60-9caf-fe52de197a85",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "115f3de3-af14-4762-975f-7ab8cf703007",
+              "value": "Input"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "dd9c9ea8-1306-4a2b-8d03-c77b8c8cb5d2",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 233.67973526984912,
+            "y": -26.28877926826118
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "ed7866ca-c50c-4561-9c22-82fae9b44b6e"
+        }
+      ],
+      "connections": [],
+      "inputs": [
+        {
+          "id": "ed7866ca-c50c-4561-9c22-82fae9b44b6e",
+          "name": "Input",
+          "nodeId": "0ca6c36a-5b52-4d60-9caf-fe52de197a85",
+          "nodeInterfaceId": "dd9c9ea8-1306-4a2b-8d03-c77b8c8cb5d2"
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "id": "bf221449-c6e5-42e2-8eb4-d36ba97aeaa2",
+      "name": "Spectrum_model",
+      "nodes": [
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "fd4dddd1-571a-495c-9459-1782d3df410b",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "4ba47351-fb80-49c9-896d-44d9e8ccf0cc",
+              "templateId": "821e348d-a342-465d-873c-661d594e0934",
+              "value": "Youtube cost"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "92d0bf6e-530e-46c6-b310-85901f8e1141",
+              "templateId": "c207691a-7aa4-4203-b2e8-ae5ba14abb1f",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 207.50306357009512,
+            "y": -41.14581127382468
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "f851acf0-34a8-4742-bfdd-4f3dcc694447"
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "c09fcdb8-979b-4399-9fcf-d538f754710b",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "931c8023-2f4a-4b88-bf90-e36a1560f58c",
+              "templateId": "f64fc6d9-2ce7-44e1-abe1-71443737384f",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "901269e9-16d7-4ab0-831c-4436897b4d31",
+              "templateId": "0c1d3827-755e-49e5-ae78-80023390f7b1",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "670d44ad-aa49-4771-957a-8c9ea3a4aecd",
+              "templateId": "e920b250-fcbf-4e20-aa84-8d596bb35617",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 469.9775573717682,
+            "y": -71.56738711440782
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "31316a0c-6e5e-4d79-8ae0-58e4246c6ad0",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "eb1aeb1c-4ece-49b2-be37-a96bd5d9f06c",
+              "templateId": "fda76c52-0c9d-434c-9ce3-e2413b8d43c1",
+              "value": "Contest cost"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "ad5b1174-beed-4bb1-8b84-280fd88a4ac9",
+              "templateId": "6828f639-2202-4361-b818-2485cf6c2ab6",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 211.0404558814681,
+            "y": 132.89389437127747
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "1d2e1ba1-b788-40ed-9c91-0051cdbb23a6"
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "225470f6-dfdf-4c45-82c4-5886b2a7ee79",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "825d2f43-41ea-4397-8bf9-381d31805711",
+              "templateId": "463d3e0e-c6b4-4a5a-96b3-a914e6731dea",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "9ab643d7-2b33-4f28-a6eb-587facf973c4",
+              "templateId": "8b0f4a2e-f96a-44a5-acab-a169de8d95ea",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "54642ab2-2387-491a-9362-45fedf3665bf",
+              "templateId": "81ff748f-7166-4d3f-9a5a-c28a70651d89",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 464.31769826916525,
+            "y": 142.09110652974567
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "632ae472-7bd0-4a45-b22c-dc922f667c44",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "846eee2e-9973-4772-88e3-60fec781fdc8",
+              "templateId": "66680ecb-6e4f-48b1-8597-0feee4a79024",
+              "value": "Influencer cost"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "89ee095d-36e9-4803-9ba3-68a71425c215",
+              "templateId": "b3a64711-75d1-4f4f-be80-3cee2228662f",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 197.59834939604764,
+            "y": 329.57289903251444
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "48324829-2738-4bcb-a1d3-2bcf01dd14e1"
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "65721785-3f95-47b7-81c8-3628409a5cff",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "ceca0388-d030-4b0e-8202-08e709ddb2e0",
+              "templateId": "ed7fbee2-f4db-4a75-a872-055273292f2d",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "8a95e982-9211-44f8-9c50-58e351436cf7",
+              "templateId": "3dd4ead9-397e-4fa6-8233-14cd6ffb9c0a",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "1416d4a6-b082-4d86-8aaa-ea67b9365e61",
+              "templateId": "5deefcfe-0375-4a58-adb9-9b3d0e834256",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 452.2905958149032,
+            "y": 348.67482536503013
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "3aba2e13-8eaa-4219-be7b-1a05d23c0e24",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "68a31088-06e7-4dc1-b297-d84a8e7aab30",
+              "templateId": "5eb6f4c7-2eab-46d6-aaed-fa068bb8cc6c",
+              "value": "Nutritionist cost"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "021e6368-83b4-4939-b06c-666ded35a0a8",
+              "templateId": "de22e6db-1ae2-476c-a35f-1f16214a6d6a",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 198.30581215611915,
+            "y": 513.5172599684024
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "30f00980-fa19-49a2-8fed-e24632e6f0ce"
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "e4dbd740-e85b-4c05-a917-831fd5a0a3fb",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "08b15fe4-e81b-4f14-a6c6-18b343c4a3a6",
+              "templateId": "1fed7923-76b1-4d1e-9667-b332541e2aec",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "d0f2977a-4dc4-4085-86c8-5435b57e2786",
+              "templateId": "93ed9aac-1d65-48eb-a5b0-52a64076b580",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "6be54cec-a8f7-4c20-a510-93c315f6af3a",
+              "templateId": "6183e956-f220-4970-b616-f3bae564f4b6",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 447.33823872787957,
+            "y": 558.7958972561798
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "Sum",
+          "id": "ae1cee8c-efc7-4359-afd6-519479c6996d",
+          "title": "Total cost",
+          "inputs": {
+            "n_inputs": {
+              "id": "22ac01ba-666e-47b2-863f-64758e0c0fe7",
+              "templateId": "80dd4731-4a4b-408c-b84f-01ca77a8fa6c",
+              "value": 5
+            },
+            "output_type": {
+              "id": "7d1fe995-50f5-4675-8318-429b2f1fd852",
+              "templateId": "17c11f4b-fc2c-4370-ab34-9f0f92bc706a",
+              "value": "probabilistic"
+            },
+            "a": {
+              "id": "f21347e1-ac68-41c4-b09a-b55621f966cd",
+              "templateId": "d6440f5d-3670-466d-91a6-c8b1ce466697",
+              "value": 0
+            },
+            "b": {
+              "id": "6881ed55-a97b-4d3e-b8f4-34ef66521f35",
+              "templateId": "98b92d4a-9110-4220-9020-f865dfbca28d",
+              "value": 0
+            },
+            "c": {
+              "id": "1caaa63a-ab09-4d5f-8ef3-5580e678db4b",
+              "templateId": "c1a74b3c-9abd-4743-b99d-3f1562c99522",
+              "value": 0
+            },
+            "d": {
+              "id": "df408c5e-1f62-4bb9-b1c1-397bcef83521",
+              "templateId": "7d8053b9-c744-4ec2-b537-f78cf1049476",
+              "value": 0
+            },
+            "e": {
+              "id": "d131572c-fea2-451d-be69-a817561f6b0d",
+              "templateId": "7bdaf700-4154-4d90-867b-39fd927e4e01",
+              "value": 0
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "f6b69a8f-c370-4f07-a9a3-7301350a789f",
+              "templateId": "b6877fc2-482d-4aa1-8c81-86f21cd43563",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 866.6511205350674,
+            "y": 79.15536854562103
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "7778a4d1-1a73-4878-af91-6adbf7c0f94d",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "c59fba0e-bc98-4e95-af77-f62306e08405",
+              "templateId": "e583f331-1142-4fb4-b712-6745db6f9b32",
+              "value": "Improved knowledge"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "f5a0aa49-4a34-4d0f-84cc-a20b55627ddd",
+              "templateId": "52265c84-8082-4fc8-afc5-312afa1d1fe2",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 164.19983167151005,
+            "y": 921.3672836878595
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "96502214-297a-4048-ab18-8ce7abdac72f"
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "95f66c25-4dcd-4189-b460-dc6ea4674715",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "b2111a7e-1f84-49a9-b452-5943d1548116",
+              "templateId": "ef329a21-cf3e-4a25-8a7b-7a3792cdc33d",
+              "value": "Motivation to change"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "0229b2ee-37e3-4009-a317-e9d8373e0c10",
+              "templateId": "b08ee217-bc62-4ad2-9f8f-da0103a99b44",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 167.98766085314864,
+            "y": 1098.637664167734
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "2b07a986-a24b-4447-ab03-ee2830a6a0a6"
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "e5e7f22a-e88e-4558-8043-17b063f6f080",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "ec3a0e64-53a7-4702-97c5-037d0ce66255",
+              "templateId": "e8355c5e-d956-48d1-937b-6248cc05af26",
+              "value": "Information value"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "3ac7b4c3-0ecf-4a70-9437-86c21f5875ae",
+              "templateId": "8299ccd1-09a2-44be-9980-b612124280dc",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 165.7149297164206,
+            "y": 743.3393541855294
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "10e26a96-5ebc-4ff7-993e-bf1ddf83d129"
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "a6e9d5d4-e1aa-4752-9629-11f35b99e6bb",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "4cd3e5e4-5eea-44c3-af15-242c9bd6c19f",
+              "templateId": "3c9a349a-320e-42cc-9f59-a51451b47525",
+              "value": "Healthy food choice"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "05a8ca14-5bf1-4dc3-b769-d56308494fe5",
+              "templateId": "5f805bbe-6e98-4e11-b315-b79bea55e603",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 148.49833155146385,
+            "y": 1368.9555197262976
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "576c932d-e10a-4483-b7f8-d7512113e060"
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "0b7a54db-1c9d-4259-96a3-2eb7c36c11d1",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "d314cb3f-0bbe-4d97-b90e-72ef80316f85",
+              "templateId": "c33b9924-cabc-4abb-aa94-0194184f1c98",
+              "value": "Positive health effect"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "79694829-c48e-4773-bf13-f781e8f06edf",
+              "templateId": "f131a70c-7eda-44f4-b3ea-fb0d1d3fe4cd",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 151.74354745974796,
+            "y": 1579.140619790589
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "2310ace6-1442-4c2c-b2a0-69e24edb59e0"
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "11eaee8b-d8fe-4c55-96e5-d0e308cee5fc",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "691334c3-e0ee-4e50-86d4-5dc591a6817d",
+              "templateId": "b7779267-af2b-412e-a201-8f4f3f1fcf57",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "c7169642-bf7c-4869-91f0-5e24815ec51a",
+              "templateId": "62f67698-82b5-4e03-a7fc-d762974ee0e5",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "895492ba-7f8a-4fc2-bdb4-951ffe6aacda",
+              "templateId": "5bd2c91f-294b-45e2-9088-b2845a094423",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 451.88005147835014,
+            "y": 782.4396025963716
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "62331098-527b-47c3-8f39-19b0bb44fc97",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "73253255-ecf0-462a-8977-3d66116ff9ac",
+              "templateId": "22c5e565-39f3-45a5-ba0d-7fdee64224a4",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "5beb491c-893b-412b-81a7-fefae6a329b5",
+              "templateId": "bd6dfaff-be6f-4e96-be1d-b2609a3166b9",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "526279c8-2c47-434f-9ffc-b05c841a8481",
+              "templateId": "37dd968e-2a96-4445-bde1-77e5ec626707",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 441.5644841453248,
+            "y": 993.9084058526028
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "39f65ba7-c83a-461b-b903-38d5c8a077ce",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "c289e7bb-2bfc-4c5e-a270-3d0a7d597bbd",
+              "templateId": "be899b02-a7cf-449a-a9f9-02eec5f945a2",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "3e8fd918-9e74-47d5-a78e-81f6b1ac119e",
+              "templateId": "60866f2e-de18-435c-8fa2-5875e78ed1ff",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "e772fbc9-4996-4047-8d00-c2fc1a4755dc",
+              "templateId": "72eb1e7b-88e5-4d1c-b62f-88c1886d78dc",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 445.985499979262,
+            "y": 1208.3244848583781
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "c6898ce8-098e-48ad-8414-bdf956d733cc",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "16bedade-d15b-422b-9e8c-b88c2e2ef6fc",
+              "templateId": "23cb7def-fc4e-4eaa-bc51-fe627c916062",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "e49c1f26-fe0b-4448-96f9-a340d4cb7957",
+              "templateId": "7239922f-cf33-47ff-b8e7-f60f100e9055",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "d40cfc42-180a-4845-9acf-bf383c5bd8f5",
+              "templateId": "b20645f1-bbd2-442f-a447-4cdd9d322c53",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 453.35375067889476,
+            "y": 1404.3199779989197
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "35a672ea-db69-43a8-be67-0ae5f437c61d",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "c593b7e3-a0a9-40e3-9bc2-954e07aae856",
+              "templateId": "0438151e-5db7-490c-85a3-d76099becadc",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "666bcc54-186c-449f-9784-2eb947c7faf7",
+              "templateId": "32f3f898-0b49-43a4-931f-934b46690cf0",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "abd15e70-7f08-40aa-ae35-a8082d930216",
+              "templateId": "84de887d-5a2d-4baf-8d9d-991bdaacf6e4",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 448.9327348449576,
+            "y": 1609.157339271942
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "Sum",
+          "id": "f09cd8d4-cc3d-42e6-add3-b40285da5b48",
+          "title": "Total benefit",
+          "inputs": {
+            "n_inputs": {
+              "id": "0f43b212-eb0d-4483-a93b-ba3c4737b972",
+              "templateId": "194232da-20ae-426c-bd9d-57ad31b62499",
+              "value": 6
+            },
+            "output_type": {
+              "id": "7989fce0-d5ae-4eb1-a49e-7e4f377b6bde",
+              "templateId": "7d21a4d8-3756-4cc5-b6d1-05c7d23fca31",
+              "value": "probabilistic"
+            },
+            "a": {
+              "id": "1f4d88b2-aae4-4497-9381-5b2c843e40fa",
+              "templateId": "a0b4c85f-d3d0-4b1b-8ebf-1caeb3d1bd21",
+              "value": 0
+            },
+            "b": {
+              "id": "0cf37125-bf94-48c6-9aa8-aea8355b54a7",
+              "templateId": "b693c248-6db5-4170-983b-ebdfc0ce00fc",
+              "value": 0
+            },
+            "c": {
+              "id": "a3132c61-595a-49a0-bb54-97e49824c8fa",
+              "templateId": "d9806d63-5839-4c9c-83c4-07d428e3833c",
+              "value": 0
+            },
+            "d": {
+              "id": "2f62d4cd-b98f-4e51-9d7d-7109b43dccfd",
+              "templateId": "1eaf3e6e-1f65-49b9-a9e9-a1c6c260dc50",
+              "value": 0
+            },
+            "e": {
+              "id": "66fad236-1774-4c4e-9586-c78244658eb9",
+              "templateId": "4414cf83-2675-4d75-b18c-63a9c433bf80",
+              "value": 0
+            },
+            "f": {
+              "id": "edff0320-24e7-410f-bdff-5b86e6fec1a9",
+              "templateId": "10574b13-92f4-4bc5-b7a0-8e6978c5840f",
+              "value": 0
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "e1984d46-cb7c-4098-bd45-f594c09ae6de",
+              "templateId": "1df56d5d-4726-4610-9139-5c15d46a530b",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 827.66091892732,
+            "y": 794.965636962517
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "Math",
+          "id": "53044406-224a-498c-a4c6-3bfca93dac91",
+          "title": "NPV",
+          "inputs": {
+            "output_type": {
+              "id": "b6774035-ed65-4472-aa3a-a4906fe55976",
+              "templateId": "cc1c0957-7e5d-4c1a-b784-d53fdd7449eb",
+              "value": "probabilistic"
+            },
+            "a": {
+              "id": "97239d82-ae38-4716-99c1-41be4ccb1037",
+              "templateId": "f8a98150-c358-469c-b76b-666f68425d04",
+              "value": 1
+            },
+            "b": {
+              "id": "e403b2db-3083-4f94-ad3c-3300afd61c01",
+              "templateId": "00738c27-9ab1-4fc3-9f93-d928fd855911",
+              "value": 2
+            },
+            "operation": {
+              "id": "91cdc8cc-b82b-482a-89f7-2565e6d62623",
+              "templateId": "c6a3878b-7c5f-42ab-85a2-736e18c50fb3",
+              "value": "subtract"
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "c1f338ad-1779-4acb-a890-ff5f79761c81",
+              "templateId": "987d5139-001c-4e67-a41c-145b1f17e647",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 1364.1436632959562,
+            "y": 378.1006589826104
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "__baklava_SubgraphOutputNode",
+          "id": "27e1e172-6b5b-4cf6-8a7c-31fabc3c032a",
+          "title": "Subgraph Output",
+          "inputs": {
+            "name": {
+              "id": "92eaf199-7692-4c43-88f8-0b2399cc4d1e",
+              "templateId": "c375bd14-0948-4c0d-b40b-cf54e4699648",
+              "value": "NPV"
+            },
+            "placeholder": {
+              "id": "2d0693c6-981d-435a-af05-d9f669d470cc",
+              "templateId": "ae5a86b9-f9ad-4747-9206-32b1c5049e77"
+            }
+          },
+          "outputs": {
+            "output": {
+              "id": "9cbb132b-32a9-4f67-8d44-2164e2bb502e",
+              "templateId": "b6ab1367-69f6-4d4a-b29f-562f3316a22f",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 2045.7707413624858,
+            "y": 383.1969173826223
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "c76e6f06-d446-4616-9194-8847e042363d"
+        },
+        {
+          "type": "__baklava_GraphNode-d2bebd1d-1d5a-4707-bbcb-b8291f86a336",
+          "id": "f5ccd9b3-b487-4a4a-add5-7705a9a414a1",
+          "title": "NPV_5_year",
+          "inputs": {
+            "0d0833e7-d6c4-426c-86f5-c97a21f9786d": {
+              "id": "b0698fc6-e41c-4b8b-a5ca-93d66e085702",
+              "templateId": "e445caf0-8148-43dd-95a6-55bdfc62ae37"
+            },
+            "7ea02a1f-ee09-4bc8-a53d-cac1daec3007": {
+              "id": "7e31921a-408e-4613-b5d8-f19602d47c98",
+              "templateId": "9f903248-465e-42bf-bb06-07a63e6c3b47"
+            }
+          },
+          "outputs": {
+            "ede7cf15-eee2-4dfc-8410-b57018a8ddb5": {
+              "id": "a9fb9ead-6cbf-449f-ae87-14ce14d5414a",
+              "templateId": "eb448877-bae3-4f8a-bbea-03a4335dd62c",
+              "value": null
+            },
+            "_calculationResults": {
+              "id": "62637e59-07b4-4515-bd73-aa7b0d7b70a1",
+              "templateId": "e5f2a32d-2727-476b-b7f8-a11e28f32fa8",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 1710.690462333321,
+            "y": 398.4857539744857
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphState": {
+            "id": "050ead21-ee23-4b82-8ac8-94d797655921",
+            "nodes": [
+              {
+                "type": "__baklava_SubgraphInputNode",
+                "id": "d457b9da-e85d-4a5c-b3b0-afb96cf7e42f",
+                "title": "Subgraph Input",
+                "inputs": {
+                  "name": {
+                    "id": "c12dba84-9cb9-4163-86e0-77db7033cc1c",
+                    "templateId": "a0869c78-4cfb-4196-adca-91730dec29f8",
+                    "value": "Sample"
+                  }
+                },
+                "outputs": {
+                  "placeholder": {
+                    "id": "4a3c7891-03ba-4112-9fb3-33470ec8b546",
+                    "templateId": "8cd5a238-4dea-4fee-9eeb-c4ff74bf029e",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 322.95001220703125,
+                  "y": 190.1999969482422
+                },
+                "width": 200,
+                "twoColumn": false,
+                "graphInterfaceId": "0d0833e7-d6c4-426c-86f5-c97a21f9786d"
+              },
+              {
+                "type": "__baklava_SubgraphInputNode",
+                "id": "8ce06465-ab1c-4092-83e2-c9f9d02cd78b",
+                "title": "Subgraph Input",
+                "inputs": {
+                  "name": {
+                    "id": "f6730650-2da3-4c80-8489-0986c3aaec10",
+                    "templateId": "018f84cd-be4b-46a3-af9e-fde975da4e62",
+                    "value": "Discount"
+                  }
+                },
+                "outputs": {
+                  "placeholder": {
+                    "id": "2097d82d-d647-4fcf-9b87-50e9dd1ed298",
+                    "templateId": "7078e239-e51d-4056-b1fe-0cb8b90aa7e3",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 331.20001220703125,
+                  "y": 401.40000915527344
+                },
+                "width": 200,
+                "twoColumn": false,
+                "graphInterfaceId": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007"
+              },
+              {
+                "type": "ToSeries",
+                "id": "943a6495-ea47-4f50-ae13-1904d29063e4",
+                "title": "To Series",
+                "inputs": {
+                  "timestep_method": {
+                    "id": "28b05a04-4aab-4f92-9f32-dc5b7d79a929",
+                    "templateId": "4106d4cb-1f5d-4331-b16c-59e828e4754f",
+                    "value": "every"
+                  },
+                  "x": {
+                    "id": "5b305f7a-789a-425f-ad0c-579258c2075a",
+                    "templateId": "cf2860fa-2846-4e86-8230-c3dfe8069ee4",
+                    "value": 0
+                  },
+                  "n": {
+                    "id": "4b1aaedb-5ed6-4f2a-ae8e-97c6f33e9df7",
+                    "templateId": "e6f6c4a6-54ad-4c31-b595-e8a26ec16953",
+                    "value": 5
+                  }
+                },
+                "outputs": {
+                  "series": {
+                    "id": "1cf36c65-32ba-4239-9072-97b578644e08",
+                    "templateId": "c255b4c7-3b19-4e34-bebe-d3e70a5d15dc",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 629.2999877929688,
+                  "y": 197.35000610351562
+                },
+                "width": 200,
+                "twoColumn": false
+              },
+              {
+                "type": "NetPresentValue",
+                "id": "19546160-5743-4438-9729-0b80e66119d2",
+                "title": "Net Present Value",
+                "inputs": {
+                  "x": {
+                    "id": "f7480c8e-254c-43d4-988d-e4d61620bb5a",
+                    "templateId": "594df24d-6034-4ef5-aaea-c1de01ad83e7",
+                    "value": [
+                      []
+                    ]
+                  },
+                  "discount": {
+                    "id": "fdd91dea-a03b-4be3-b4fe-7587a86b5e69",
+                    "templateId": "3accb6f3-544e-4567-a26a-a3f460c4e4f6",
+                    "value": 10
+                  }
+                },
+                "outputs": {
+                  "sample": {
+                    "id": "0df31a11-cec9-4cae-8704-cea4fbf27505",
+                    "templateId": "e73801b9-a7de-4b61-a4a4-d37dc056f879",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 913.0999755859375,
+                  "y": 329.8999786376953
+                },
+                "width": 200,
+                "twoColumn": false
+              },
+              {
+                "type": "__baklava_SubgraphOutputNode",
+                "id": "c8c9389f-bdb0-4be1-9d84-1a8892a81887",
+                "title": "NPV",
+                "inputs": {
+                  "name": {
+                    "id": "9b673830-715b-4843-af8b-9d9cf797bce2",
+                    "templateId": "a9c0ee6d-1053-4642-b803-c801d39890fd",
+                    "value": "NPV"
+                  },
+                  "placeholder": {
+                    "id": "aeb5c272-c46a-4e2a-a2ca-4db361ed36bd",
+                    "templateId": "f2ba6e60-7c7c-4d69-aadc-f8317658075b"
+                  }
+                },
+                "outputs": {
+                  "output": {
+                    "id": "b8f04b03-bf0c-4579-a6e2-6b2ecaf5af73",
+                    "templateId": "1a21ac51-b8a2-4090-832e-b8814aaab385",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 1206.800048828125,
+                  "y": 254.5500030517578
+                },
+                "width": 200,
+                "twoColumn": false,
+                "graphInterfaceId": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5"
+              }
+            ],
+            "connections": [
+              {
+                "id": "d3ec8828-91ec-410e-8dd9-0f0d5d710ba6",
+                "from": "4a3c7891-03ba-4112-9fb3-33470ec8b546",
+                "to": "5b305f7a-789a-425f-ad0c-579258c2075a"
+              },
+              {
+                "id": "73c5bc16-cb9b-4391-bcf7-07dcaa88e88d",
+                "from": "1cf36c65-32ba-4239-9072-97b578644e08",
+                "to": "f7480c8e-254c-43d4-988d-e4d61620bb5a"
+              },
+              {
+                "id": "9d49b3b6-e59b-44e5-920d-b6de894a98a1",
+                "from": "2097d82d-d647-4fcf-9b87-50e9dd1ed298",
+                "to": "fdd91dea-a03b-4be3-b4fe-7587a86b5e69"
+              },
+              {
+                "id": "29668d15-7c7a-400c-93ea-640491c33b78",
+                "from": "0df31a11-cec9-4cae-8704-cea4fbf27505",
+                "to": "aeb5c272-c46a-4e2a-a2ca-4db361ed36bd"
+              }
+            ],
+            "inputs": [
+              {
+                "id": "0d0833e7-d6c4-426c-86f5-c97a21f9786d",
+                "name": "Sample",
+                "nodeId": "d457b9da-e85d-4a5c-b3b0-afb96cf7e42f",
+                "nodeInterfaceId": "4a3c7891-03ba-4112-9fb3-33470ec8b546"
+              },
+              {
+                "id": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007",
+                "name": "Discount",
+                "nodeId": "8ce06465-ab1c-4092-83e2-c9f9d02cd78b",
+                "nodeInterfaceId": "2097d82d-d647-4fcf-9b87-50e9dd1ed298"
+              }
+            ],
+            "outputs": [
+              {
+                "id": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5",
+                "name": "NPV",
+                "nodeId": "c8c9389f-bdb0-4be1-9d84-1a8892a81887",
+                "nodeInterfaceId": "b8f04b03-bf0c-4579-a6e2-6b2ecaf5af73"
+              }
+            ]
+          }
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "2bb5bbaa-3c60-4f1c-bf49-6089fe8c54dd",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "4186e427-d8fa-4cc2-8e98-60f385f63f1d",
+              "templateId": "1eb1b4f7-7758-4a9a-9a45-4e6d15add538",
+              "value": "Discount"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "20dc5997-206b-44da-8161-273aedf98a20",
+              "templateId": "eba9cb0c-11d5-4a8d-bc86-7694e9fe6a55",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 1365.4176665041314,
+            "y": 694.0697234444203
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "f987318c-08e4-4e03-b5a9-0da23543ff2a"
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "1b4aabfb-23bc-4741-a9b5-c46235df7c7c",
+          "title": "Risk adjustment",
+          "inputs": {
+            "name": {
+              "id": "449df424-ea07-4bdd-9641-96210d855f61",
+              "templateId": "3f77016c-7a3e-4d59-a44b-a33dce507091",
+              "value": "Risk adjustment"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "ce3c1250-bae8-4a66-b704-21de93af3a78",
+              "templateId": "498c9c72-51bf-43d2-bc83-a48031bd25bd",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 637.3095128346337,
+            "y": 632.1512848461032
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "97a9355e-e2b7-4bd8-8c05-6abf0a11dc95"
+        },
+        {
+          "type": "TypeConstraint",
+          "id": "b81b8a8c-4216-466c-9a36-337ef936890c",
+          "title": "Type Constraint",
+          "inputs": {
+            "type": {
+              "id": "c516a390-f61c-4514-a783-99350ee3a7a4",
+              "templateId": "263106ad-e4d8-4d81-9c79-150588edd36c",
+              "value": "probabilistic"
+            },
+            "sample": {
+              "id": "4f550356-57cc-4ac7-8ca9-06457b7d754d",
+              "templateId": "6518c9e7-b307-48e9-96c9-6bcb7cca9c53",
+              "value": null
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "79d58634-5af5-4ece-974b-89296f58ed1a",
+              "templateId": "0698295f-1cac-4e81-8e7b-675580df07df",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 848.0077406383822,
+            "y": 434.49303157571035
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "Math",
+          "id": "0b8c8da6-54a7-454d-9351-39a6961a738c",
+          "title": "Math",
+          "inputs": {
+            "output_type": {
+              "id": "e55bf1f7-c1b8-4c00-b242-a72b92193367",
+              "templateId": "6f827b42-c703-4659-96c2-153acdd9aef4",
+              "value": "probabilistic"
+            },
+            "a": {
+              "id": "587237c5-d8c8-41e9-a7ee-af264ba63811",
+              "templateId": "f0020eb8-05c8-4a9f-8760-7ecba0b5a9d9",
+              "value": 1
+            },
+            "b": {
+              "id": "c64bb3de-66ff-4882-be92-a7160f9187e7",
+              "templateId": "d3e3bc3c-769b-451e-8316-89bac6e563ad",
+              "value": 2
+            },
+            "operation": {
+              "id": "3a527d0e-85c8-4038-9457-588466bb1aaf",
+              "templateId": "6af7984f-9898-439a-a14e-86e57d39567d",
+              "value": "multiply"
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "31098d16-adeb-48e5-8ee6-65a1704766ba",
+              "templateId": "e56e49ef-cb62-4ca1-8b20-ece402b02cf6",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 1117.0423676537578,
+            "y": 635.5828396862252
+          },
+          "width": 200,
+          "twoColumn": false
+        }
+      ],
+      "connections": [
+        {
+          "id": "9d60b544-0d21-400a-b7bd-ea6bf82a050b",
+          "from": "92d0bf6e-530e-46c6-b310-85901f8e1141",
+          "to": "901269e9-16d7-4ab0-831c-4436897b4d31"
+        },
+        {
+          "id": "6ee92b97-dc7a-4241-ac95-4ecf3d93ce1e",
+          "from": "ad5b1174-beed-4bb1-8b84-280fd88a4ac9",
+          "to": "9ab643d7-2b33-4f28-a6eb-587facf973c4"
+        },
+        {
+          "id": "ac18501c-ecaa-421c-9d0f-38586bc0da44",
+          "from": "89ee095d-36e9-4803-9ba3-68a71425c215",
+          "to": "8a95e982-9211-44f8-9c50-58e351436cf7"
+        },
+        {
+          "id": "02a5e78b-6cb1-4a1f-82b2-1f0e8805566a",
+          "from": "021e6368-83b4-4939-b06c-666ded35a0a8",
+          "to": "d0f2977a-4dc4-4085-86c8-5435b57e2786"
+        },
+        {
+          "id": "23a8a7a2-f52a-462b-a03a-998005c74649",
+          "from": "670d44ad-aa49-4771-957a-8c9ea3a4aecd",
+          "to": "f21347e1-ac68-41c4-b09a-b55621f966cd"
+        },
+        {
+          "id": "e9a76da3-32c6-448d-b650-5ba02c7351fb",
+          "from": "54642ab2-2387-491a-9362-45fedf3665bf",
+          "to": "6881ed55-a97b-4d3e-b8f4-34ef66521f35"
+        },
+        {
+          "id": "c96aef07-65c4-4b73-ab1f-8aa99dadbcba",
+          "from": "1416d4a6-b082-4d86-8aaa-ea67b9365e61",
+          "to": "1caaa63a-ab09-4d5f-8ef3-5580e678db4b"
+        },
+        {
+          "id": "c088322c-cb0c-42be-bb01-665b0c2a6cbe",
+          "from": "6be54cec-a8f7-4c20-a510-93c315f6af3a",
+          "to": "df408c5e-1f62-4bb9-b1c1-397bcef83521"
+        },
+        {
+          "id": "0e388c57-4c57-4d71-820f-7ea1490a9807",
+          "from": "3ac7b4c3-0ecf-4a70-9437-86c21f5875ae",
+          "to": "c7169642-bf7c-4869-91f0-5e24815ec51a"
+        },
+        {
+          "id": "d4090ba1-a94f-4b50-aaee-9e7c8abe8103",
+          "from": "f5a0aa49-4a34-4d0f-84cc-a20b55627ddd",
+          "to": "5beb491c-893b-412b-81a7-fefae6a329b5"
+        },
+        {
+          "id": "f20128a0-e128-4441-99c3-799ae1b20e35",
+          "from": "0229b2ee-37e3-4009-a317-e9d8373e0c10",
+          "to": "3e8fd918-9e74-47d5-a78e-81f6b1ac119e"
+        },
+        {
+          "id": "a8c025a3-151d-496a-a773-9b4dd62e2514",
+          "from": "05a8ca14-5bf1-4dc3-b769-d56308494fe5",
+          "to": "e49c1f26-fe0b-4448-96f9-a340d4cb7957"
+        },
+        {
+          "id": "380ff1b2-fe6b-4c70-87b5-a74cf772fa57",
+          "from": "895492ba-7f8a-4fc2-bdb4-951ffe6aacda",
+          "to": "1f4d88b2-aae4-4497-9381-5b2c843e40fa"
+        },
+        {
+          "id": "1861d082-322b-494c-8778-e13d583a471b",
+          "from": "526279c8-2c47-434f-9ffc-b05c841a8481",
+          "to": "0cf37125-bf94-48c6-9aa8-aea8355b54a7"
+        },
+        {
+          "id": "8830c5a9-9043-4e45-8fd5-6ea4ee5fce04",
+          "from": "e772fbc9-4996-4047-8d00-c2fc1a4755dc",
+          "to": "a3132c61-595a-49a0-bb54-97e49824c8fa"
+        },
+        {
+          "id": "c6a4d688-11f5-4483-acf9-a4b990ad0e2d",
+          "from": "d40cfc42-180a-4845-9acf-bf383c5bd8f5",
+          "to": "2f62d4cd-b98f-4e51-9d7d-7109b43dccfd"
+        },
+        {
+          "id": "d2ab9f28-a4a3-43b0-ac61-17d29b0ac0ee",
+          "from": "abd15e70-7f08-40aa-ae35-a8082d930216",
+          "to": "66fad236-1774-4c4e-9586-c78244658eb9"
+        },
+        {
+          "id": "f8c34352-b665-43bc-9f6b-7073ba9c2f35",
+          "from": "c1f338ad-1779-4acb-a890-ff5f79761c81",
+          "to": "b0698fc6-e41c-4b8b-a5ca-93d66e085702"
+        },
+        {
+          "id": "c11d8450-5d5f-4106-946c-2b4331b7997e",
+          "from": "a9fb9ead-6cbf-449f-ae87-14ce14d5414a",
+          "to": "2d0693c6-981d-435a-af05-d9f669d470cc"
+        },
+        {
+          "id": "321cf746-be85-4c71-995e-ba370f4ea625",
+          "from": "20dc5997-206b-44da-8161-273aedf98a20",
+          "to": "7e31921a-408e-4613-b5d8-f19602d47c98"
+        },
+        {
+          "id": "879a992c-2a76-4def-a0ec-3e4f3ce122e3",
+          "from": "79694829-c48e-4773-bf13-f781e8f06edf",
+          "to": "666bcc54-186c-449f-9784-2eb947c7faf7"
+        },
+        {
+          "id": "1bee563d-3974-4d56-89ae-d196335fd6f0",
+          "from": "f6b69a8f-c370-4f07-a9a3-7301350a789f",
+          "to": "e403b2db-3083-4f94-ad3c-3300afd61c01"
+        },
+        {
+          "id": "51f7700b-ed38-493c-a710-dee73d43d7f8",
+          "from": "ce3c1250-bae8-4a66-b704-21de93af3a78",
+          "to": "4f550356-57cc-4ac7-8ca9-06457b7d754d"
+        },
+        {
+          "id": "f8167361-364e-4a8a-9e3a-6cc3bf964cb0",
+          "from": "79d58634-5af5-4ece-974b-89296f58ed1a",
+          "to": "587237c5-d8c8-41e9-a7ee-af264ba63811"
+        },
+        {
+          "id": "92a27c92-fea6-4a1e-b37b-b26a705ce0e1",
+          "from": "e1984d46-cb7c-4098-bd45-f594c09ae6de",
+          "to": "c64bb3de-66ff-4882-be92-a7160f9187e7"
+        },
+        {
+          "id": "e87ab795-16fa-4a23-8d5d-4164b4d86838",
+          "from": "31098d16-adeb-48e5-8ee6-65a1704766ba",
+          "to": "97239d82-ae38-4716-99c1-41be4ccb1037"
+        }
+      ],
+      "inputs": [
+        {
+          "id": "f851acf0-34a8-4742-bfdd-4f3dcc694447",
+          "name": "Youtube cost",
+          "nodeId": "fd4dddd1-571a-495c-9459-1782d3df410b",
+          "nodeInterfaceId": "92d0bf6e-530e-46c6-b310-85901f8e1141"
+        },
+        {
+          "id": "1d2e1ba1-b788-40ed-9c91-0051cdbb23a6",
+          "name": "Contest cost",
+          "nodeId": "31316a0c-6e5e-4d79-8ae0-58e4246c6ad0",
+          "nodeInterfaceId": "ad5b1174-beed-4bb1-8b84-280fd88a4ac9"
+        },
+        {
+          "id": "48324829-2738-4bcb-a1d3-2bcf01dd14e1",
+          "name": "Influencer cost",
+          "nodeId": "632ae472-7bd0-4a45-b22c-dc922f667c44",
+          "nodeInterfaceId": "89ee095d-36e9-4803-9ba3-68a71425c215"
+        },
+        {
+          "id": "30f00980-fa19-49a2-8fed-e24632e6f0ce",
+          "name": "Nutritionist cost",
+          "nodeId": "3aba2e13-8eaa-4219-be7b-1a05d23c0e24",
+          "nodeInterfaceId": "021e6368-83b4-4939-b06c-666ded35a0a8"
+        },
+        {
+          "id": "96502214-297a-4048-ab18-8ce7abdac72f",
+          "name": "Improved knowledge",
+          "nodeId": "7778a4d1-1a73-4878-af91-6adbf7c0f94d",
+          "nodeInterfaceId": "f5a0aa49-4a34-4d0f-84cc-a20b55627ddd"
+        },
+        {
+          "id": "2b07a986-a24b-4447-ab03-ee2830a6a0a6",
+          "name": "Motivation to change",
+          "nodeId": "95f66c25-4dcd-4189-b460-dc6ea4674715",
+          "nodeInterfaceId": "0229b2ee-37e3-4009-a317-e9d8373e0c10"
+        },
+        {
+          "id": "10e26a96-5ebc-4ff7-993e-bf1ddf83d129",
+          "name": "Information value",
+          "nodeId": "e5e7f22a-e88e-4558-8043-17b063f6f080",
+          "nodeInterfaceId": "3ac7b4c3-0ecf-4a70-9437-86c21f5875ae"
+        },
+        {
+          "id": "576c932d-e10a-4483-b7f8-d7512113e060",
+          "name": "Healthy food choice",
+          "nodeId": "a6e9d5d4-e1aa-4752-9629-11f35b99e6bb",
+          "nodeInterfaceId": "05a8ca14-5bf1-4dc3-b769-d56308494fe5"
+        },
+        {
+          "id": "2310ace6-1442-4c2c-b2a0-69e24edb59e0",
+          "name": "Positive health effect",
+          "nodeId": "0b7a54db-1c9d-4259-96a3-2eb7c36c11d1",
+          "nodeInterfaceId": "79694829-c48e-4773-bf13-f781e8f06edf"
+        },
+        {
+          "id": "f987318c-08e4-4e03-b5a9-0da23543ff2a",
+          "name": "Discount",
+          "nodeId": "2bb5bbaa-3c60-4f1c-bf49-6089fe8c54dd",
+          "nodeInterfaceId": "20dc5997-206b-44da-8161-273aedf98a20"
+        },
+        {
+          "id": "97a9355e-e2b7-4bd8-8c05-6abf0a11dc95",
+          "name": "Risk adjustment",
+          "nodeId": "1b4aabfb-23bc-4741-a9b5-c46235df7c7c",
+          "nodeInterfaceId": "ce3c1250-bae8-4a66-b704-21de93af3a78"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "c76e6f06-d446-4616-9194-8847e042363d",
+          "name": "NPV",
+          "nodeId": "27e1e172-6b5b-4cf6-8a7c-31fabc3c032a",
+          "nodeInterfaceId": "9cbb132b-32a9-4f67-8d44-2164e2bb502e"
+        }
+      ]
+    }
+  ]
+}

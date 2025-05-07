@@ -1,0 +1,12 @@
+,label,variable,distribution,lower,median,upper
+0,Youtube cost,Youtube_cost,posnorm,12000,,30000
+1,Nutritionist cost,Nutritionist_cost,posnorm,20000,,40000
+2,Contest cost,Contest_cost,posnorm,4000,,6000
+3,Influencer cost,Influencer_cost,posnorm,50000,,70000
+4,Improved knowledge,Improved_knowledge,posnorm,30000,,50000
+5,Motivation to change,Motivation_to_change,posnorm,20000,,50000
+6,Information value,Information_value,posnorm,30000,,60000
+7,Healthy food choice,Healthy_food_choice,posnorm,30000,,70900
+8,Positive health effect,Positive_health_effect,posnorm,30000,,40000
+9,Discount,Discount,const,5,,5
+10,Risk adjustment,Risk_adjustment,tnorm_0_1,0.6,,0.9

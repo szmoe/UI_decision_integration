@@ -1,0 +1,5 @@
+,label,variable,distribution,lower,median,upper
+0,If_high_attention,If_high_attention,tnorm_0_1,0.5,,0.9
+1,If_understandable,If_understandable,tnorm_0_1,0.8,,0.9
+2,If_change,If_change,tnorm_0_1,0.4,,0.6
+3,If_low_confounders,If_low_confounders,tnorm_0_1,0.5,,0.8
