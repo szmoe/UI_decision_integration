@@ -1,0 +1,709 @@
+{
+  "graph": {
+    "id": "2e5b1b5d-fe2e-4f2f-ab96-075d2a44422a",
+    "nodes": [
+      {
+        "type": "__baklava_GraphNode-cdff4bef-9854-4f8c-b25c-77be8ef6b6f2",
+        "id": "38ded4cb-79f2-464c-9a13-00e25dee61e1",
+        "title": "Subgraph",
+        "inputs": {},
+        "outputs": {
+          "_calculationResults": {
+            "id": "4f48b400-5da1-49a4-bf1f-f6898b6cb9a8",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 421,
+          "y": 173
+        },
+        "width": 200,
+        "twoColumn": false,
+        "graphState": {
+          "id": "ba048fa0-46a2-4509-9929-72c89f595a74",
+          "nodes": [
+            {
+              "type": "__baklava_GraphNode-d2bebd1d-1d5a-4707-bbcb-b8291f86a336",
+              "id": "89c03d7b-d1ff-4757-8038-e851357ebffa",
+              "title": "NPV_5_year",
+              "inputs": {
+                "0d0833e7-d6c4-426c-86f5-c97a21f9786d": {
+                  "id": "0b5b35c8-45f8-4a02-b029-259de80b21a1",
+                  "templateId": "06b86852-07a5-4848-8ae4-97842077e483"
+                },
+                "7ea02a1f-ee09-4bc8-a53d-cac1daec3007": {
+                  "id": "13d7ae0b-44f5-40ab-9223-b96e0465fe71",
+                  "templateId": "54ec63cb-445d-4e6a-be4a-3072dd1eb8b5"
+                }
+              },
+              "outputs": {
+                "ede7cf15-eee2-4dfc-8410-b57018a8ddb5": {
+                  "id": "a06cde74-f051-48a6-b918-7e6f5f15e793",
+                  "templateId": "2a925cb7-ea12-476b-895b-0833e8d3cf06",
+                  "value": null
+                },
+                "_calculationResults": {
+                  "id": "dac6c5b1-bcf8-4b42-9e24-102891ccbf3a",
+                  "templateId": "6e691796-0f83-4645-ad95-08b8236b8902",
+                  "value": null
+                }
+              },
+              "position": {
+                "x": 1099.7977694388092,
+                "y": 812.9768128142455
+              },
+              "width": 200,
+              "twoColumn": false,
+              "graphState": {
+                "id": "4d563553-d8c7-4c29-8b70-3f1cee118658",
+                "nodes": [
+                  {
+                    "type": "__baklava_SubgraphInputNode",
+                    "id": "168cde86-23ed-4d74-bc64-63114cbebb58",
+                    "title": "Subgraph Input",
+                    "inputs": {
+                      "name": {
+                        "id": "9c73077f-41d1-4bd8-85e2-b275b025a007",
+                        "templateId": "17295fda-5944-437f-b222-04dbca70034c",
+                        "value": "Sample"
+                      }
+                    },
+                    "outputs": {
+                      "placeholder": {
+                        "id": "de93e920-f313-4006-8acf-3a54f4d7f6e8",
+                        "templateId": "6868b981-0ecd-437d-bf7b-b869c77db352",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 322.95001220703125,
+                      "y": 190.1999969482422
+                    },
+                    "width": 200,
+                    "twoColumn": false,
+                    "graphInterfaceId": "0d0833e7-d6c4-426c-86f5-c97a21f9786d"
+                  },
+                  {
+                    "type": "__baklava_SubgraphInputNode",
+                    "id": "3573cab7-15f7-4796-bed8-92bb04f2e51d",
+                    "title": "Subgraph Input",
+                    "inputs": {
+                      "name": {
+                        "id": "263cadec-0fcb-4438-a128-ee095c62226b",
+                        "templateId": "e90fd30a-b851-4728-92ce-23f4492b47ca",
+                        "value": "Discount"
+                      }
+                    },
+                    "outputs": {
+                      "placeholder": {
+                        "id": "2a91919f-778b-488b-b5d4-be9b0c96f731",
+                        "templateId": "9233d185-cc3c-4d70-8d45-ab4c2c773ec7",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 331.20001220703125,
+                      "y": 401.40000915527344
+                    },
+                    "width": 200,
+                    "twoColumn": false,
+                    "graphInterfaceId": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007"
+                  },
+                  {
+                    "type": "ToSeries",
+                    "id": "bc630aa4-c3ef-4440-a119-f3fc6010f165",
+                    "title": "To Series",
+                    "inputs": {
+                      "timestep_method": {
+                        "id": "33f31bba-5951-490f-b845-15d0e61cc8a0",
+                        "templateId": "cca5fdd0-b6be-475e-a4b8-c2ef52af2b9a",
+                        "value": "every"
+                      },
+                      "x": {
+                        "id": "3cb455e9-16fc-4fe4-937f-9b1feda9304e",
+                        "templateId": "727a517e-4fa4-4bdb-856e-69a5a810f6ee",
+                        "value": 0
+                      },
+                      "n": {
+                        "id": "21349928-9c89-4dba-b42b-edcc633c5e38",
+                        "templateId": "e9efcbda-99ee-4d56-a7d6-cc234d0dc0f3",
+                        "value": 5
+                      }
+                    },
+                    "outputs": {
+                      "series": {
+                        "id": "b321c534-74f4-4586-838e-cef3968afcb0",
+                        "templateId": "0511f4d5-8567-4b14-b7f4-8ccb859faca5",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 629.2999877929688,
+                      "y": 197.35000610351562
+                    },
+                    "width": 200,
+                    "twoColumn": false
+                  },
+                  {
+                    "type": "NetPresentValue",
+                    "id": "93fd77e4-a60b-4740-b64f-0829e7aa6312",
+                    "title": "Net Present Value",
+                    "inputs": {
+                      "x": {
+                        "id": "fd01211f-679e-42d5-981a-15d63cb3859d",
+                        "templateId": "db633248-e9d4-471c-b6b5-12c68b439c7e",
+                        "value": [
+                          []
+                        ]
+                      },
+                      "discount": {
+                        "id": "c5d9b29e-0f7b-4195-9d10-50fefb18265b",
+                        "templateId": "24e7b540-3baa-4ace-ad79-61833ab62702",
+                        "value": 10
+                      }
+                    },
+                    "outputs": {
+                      "sample": {
+                        "id": "e3df9317-fca5-45fa-af85-4010791f9eff",
+                        "templateId": "5b5d3422-3a71-43c0-bd44-17092a980421",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 913.0999755859375,
+                      "y": 329.8999786376953
+                    },
+                    "width": 200,
+                    "twoColumn": false
+                  },
+                  {
+                    "type": "__baklava_SubgraphOutputNode",
+                    "id": "8bc8172e-2795-4b92-b548-1db214dd2860",
+                    "title": "NPV",
+                    "inputs": {
+                      "name": {
+                        "id": "b750582d-586f-4e01-80d4-5648b421bd41",
+                        "templateId": "5513404c-5cd8-40eb-9798-26df9d09b5a5",
+                        "value": "NPV"
+                      },
+                      "placeholder": {
+                        "id": "24bb0122-3916-46ee-bf67-ba6785308c67",
+                        "templateId": "cdb9c736-1cef-4adf-a4c5-a00afac2c0f8"
+                      }
+                    },
+                    "outputs": {
+                      "output": {
+                        "id": "215f680d-7737-4434-8197-6d8eed84ce55",
+                        "templateId": "aa8e431d-21de-4a80-b37a-c6cd319f4b93",
+                        "value": null
+                      }
+                    },
+                    "position": {
+                      "x": 1206.800048828125,
+                      "y": 254.5500030517578
+                    },
+                    "width": 200,
+                    "twoColumn": false,
+                    "graphInterfaceId": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5"
+                  }
+                ],
+                "connections": [
+                  {
+                    "id": "c1d830a5-706d-4e0d-af48-d00d01cc96c4",
+                    "from": "de93e920-f313-4006-8acf-3a54f4d7f6e8",
+                    "to": "3cb455e9-16fc-4fe4-937f-9b1feda9304e"
+                  },
+                  {
+                    "id": "f3ae5dd6-737d-4742-b539-b5cf807081e3",
+                    "from": "b321c534-74f4-4586-838e-cef3968afcb0",
+                    "to": "fd01211f-679e-42d5-981a-15d63cb3859d"
+                  },
+                  {
+                    "id": "8a0a024a-622a-4c82-a658-6fac3acfa915",
+                    "from": "2a91919f-778b-488b-b5d4-be9b0c96f731",
+                    "to": "c5d9b29e-0f7b-4195-9d10-50fefb18265b"
+                  },
+                  {
+                    "id": "8158ab67-0e88-4b36-b511-830ab5a7e0e9",
+                    "from": "e3df9317-fca5-45fa-af85-4010791f9eff",
+                    "to": "24bb0122-3916-46ee-bf67-ba6785308c67"
+                  }
+                ],
+                "inputs": [
+                  {
+                    "id": "0d0833e7-d6c4-426c-86f5-c97a21f9786d",
+                    "name": "Sample",
+                    "nodeId": "168cde86-23ed-4d74-bc64-63114cbebb58",
+                    "nodeInterfaceId": "de93e920-f313-4006-8acf-3a54f4d7f6e8"
+                  },
+                  {
+                    "id": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007",
+                    "name": "Discount",
+                    "nodeId": "3573cab7-15f7-4796-bed8-92bb04f2e51d",
+                    "nodeInterfaceId": "2a91919f-778b-488b-b5d4-be9b0c96f731"
+                  }
+                ],
+                "outputs": [
+                  {
+                    "id": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5",
+                    "name": "NPV",
+                    "nodeId": "8bc8172e-2795-4b92-b548-1db214dd2860",
+                    "nodeInterfaceId": "215f680d-7737-4434-8197-6d8eed84ce55"
+                  }
+                ]
+              }
+            }
+          ],
+          "connections": [],
+          "inputs": [],
+          "outputs": []
+        }
+      }
+    ],
+    "connections": [],
+    "inputs": [],
+    "outputs": [],
+    "panning": {
+      "x": 0,
+      "y": 0
+    },
+    "scaling": 1
+  },
+  "graphTemplates": [
+    {
+      "id": "d2bebd1d-1d5a-4707-bbcb-b8291f86a336",
+      "name": "NPV_5_year",
+      "nodes": [
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "e59da155-0258-43eb-b59a-182f240cda75",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "17295fda-5944-437f-b222-04dbca70034c",
+              "templateId": "d278f347-0552-4d83-a7b9-c2c8a6df1005",
+              "value": "Sample"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "6868b981-0ecd-437d-bf7b-b869c77db352",
+              "templateId": "55d3a689-ac33-4cdc-8900-7744084e099a",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 322.95001220703125,
+            "y": 190.1999969482422
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "0d0833e7-d6c4-426c-86f5-c97a21f9786d"
+        },
+        {
+          "type": "__baklava_SubgraphInputNode",
+          "id": "26237585-db16-474f-8201-afd9ab7eff70",
+          "title": "Subgraph Input",
+          "inputs": {
+            "name": {
+              "id": "e90fd30a-b851-4728-92ce-23f4492b47ca",
+              "templateId": "62f7d15e-38a9-4c21-ae71-f1451e83d4f8",
+              "value": "Discount"
+            }
+          },
+          "outputs": {
+            "placeholder": {
+              "id": "9233d185-cc3c-4d70-8d45-ab4c2c773ec7",
+              "templateId": "dbc6047a-b6e2-49e6-95e7-beb88a83e869",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 331.20001220703125,
+            "y": 401.40000915527344
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007"
+        },
+        {
+          "type": "ToSeries",
+          "id": "a592340f-ae92-4e27-8d4f-be3151d2f833",
+          "title": "To Series",
+          "inputs": {
+            "timestep_method": {
+              "id": "cca5fdd0-b6be-475e-a4b8-c2ef52af2b9a",
+              "templateId": "2d6f7b15-d17f-4783-9161-8aeef0332414",
+              "value": "every"
+            },
+            "x": {
+              "id": "727a517e-4fa4-4bdb-856e-69a5a810f6ee",
+              "templateId": "7cd519ce-836f-47f2-a46a-b43a5a9d291e",
+              "value": 0
+            },
+            "n": {
+              "id": "e9efcbda-99ee-4d56-a7d6-cc234d0dc0f3",
+              "templateId": "73df857b-f37c-475d-960a-6dd083035b8f",
+              "value": 5
+            }
+          },
+          "outputs": {
+            "series": {
+              "id": "0511f4d5-8567-4b14-b7f4-8ccb859faca5",
+              "templateId": "5cb2075b-7248-4dc8-b84a-959eae1c3439",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 629.2999877929688,
+            "y": 197.35000610351562
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "NetPresentValue",
+          "id": "219165b3-4fde-42fe-ba1c-fd938fa64410",
+          "title": "Net Present Value",
+          "inputs": {
+            "x": {
+              "id": "db633248-e9d4-471c-b6b5-12c68b439c7e",
+              "templateId": "8fd5a40f-06b3-4e32-8fd1-bf4282fec1e0",
+              "value": [
+                []
+              ]
+            },
+            "discount": {
+              "id": "24e7b540-3baa-4ace-ad79-61833ab62702",
+              "templateId": "84acc6ea-5e27-4175-b123-ca9ba2d07a2f",
+              "value": 10
+            }
+          },
+          "outputs": {
+            "sample": {
+              "id": "5b5d3422-3a71-43c0-bd44-17092a980421",
+              "templateId": "225a9f5f-9c7a-41ad-a7b4-8a7e45ffe00e",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 913.0999755859375,
+            "y": 329.8999786376953
+          },
+          "width": 200,
+          "twoColumn": false
+        },
+        {
+          "type": "__baklava_SubgraphOutputNode",
+          "id": "2003397a-a261-465c-93fd-1d270cce0533",
+          "title": "NPV",
+          "inputs": {
+            "name": {
+              "id": "5513404c-5cd8-40eb-9798-26df9d09b5a5",
+              "templateId": "2d4ede37-041a-468e-ab02-544bc52f56f1",
+              "value": "NPV"
+            },
+            "placeholder": {
+              "id": "cdb9c736-1cef-4adf-a4c5-a00afac2c0f8",
+              "templateId": "b8e6d842-d62f-407e-8148-168d1a8f1259"
+            }
+          },
+          "outputs": {
+            "output": {
+              "id": "aa8e431d-21de-4a80-b37a-c6cd319f4b93",
+              "templateId": "d1ef32e5-4fe5-4de4-8eae-d67c6677da11",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 1206.800048828125,
+            "y": 254.5500030517578
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphInterfaceId": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5"
+        }
+      ],
+      "connections": [
+        {
+          "id": "fc7d7a6c-c58d-4ae5-a4ae-4e1df34cf008",
+          "from": "6868b981-0ecd-437d-bf7b-b869c77db352",
+          "to": "727a517e-4fa4-4bdb-856e-69a5a810f6ee"
+        },
+        {
+          "id": "4710dae6-e055-4e0c-921c-ae2a201dadde",
+          "from": "0511f4d5-8567-4b14-b7f4-8ccb859faca5",
+          "to": "db633248-e9d4-471c-b6b5-12c68b439c7e"
+        },
+        {
+          "id": "87936877-bb60-4b44-adab-26d01a1bfa92",
+          "from": "9233d185-cc3c-4d70-8d45-ab4c2c773ec7",
+          "to": "24e7b540-3baa-4ace-ad79-61833ab62702"
+        },
+        {
+          "id": "ab968933-4c65-43d1-b7ac-c9c9d450bba0",
+          "from": "5b5d3422-3a71-43c0-bd44-17092a980421",
+          "to": "cdb9c736-1cef-4adf-a4c5-a00afac2c0f8"
+        }
+      ],
+      "inputs": [
+        {
+          "id": "0d0833e7-d6c4-426c-86f5-c97a21f9786d",
+          "name": "Sample",
+          "nodeId": "e59da155-0258-43eb-b59a-182f240cda75",
+          "nodeInterfaceId": "6868b981-0ecd-437d-bf7b-b869c77db352"
+        },
+        {
+          "id": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007",
+          "name": "Discount",
+          "nodeId": "26237585-db16-474f-8201-afd9ab7eff70",
+          "nodeInterfaceId": "9233d185-cc3c-4d70-8d45-ab4c2c773ec7"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5",
+          "name": "NPV",
+          "nodeId": "2003397a-a261-465c-93fd-1d270cce0533",
+          "nodeInterfaceId": "aa8e431d-21de-4a80-b37a-c6cd319f4b93"
+        }
+      ]
+    },
+    {
+      "id": "cdff4bef-9854-4f8c-b25c-77be8ef6b6f2",
+      "name": "Subgraph",
+      "nodes": [
+        {
+          "type": "__baklava_GraphNode-d2bebd1d-1d5a-4707-bbcb-b8291f86a336",
+          "id": "ba9c7d36-e00a-4f21-b9d7-c060f1ad4e80",
+          "title": "NPV_5_year",
+          "inputs": {
+            "0d0833e7-d6c4-426c-86f5-c97a21f9786d": {
+              "id": "06b86852-07a5-4848-8ae4-97842077e483"
+            },
+            "7ea02a1f-ee09-4bc8-a53d-cac1daec3007": {
+              "id": "54ec63cb-445d-4e6a-be4a-3072dd1eb8b5"
+            }
+          },
+          "outputs": {
+            "ede7cf15-eee2-4dfc-8410-b57018a8ddb5": {
+              "id": "2a925cb7-ea12-476b-895b-0833e8d3cf06",
+              "value": null
+            },
+            "_calculationResults": {
+              "id": "6e691796-0f83-4645-ad95-08b8236b8902",
+              "value": null
+            }
+          },
+          "position": {
+            "x": 1099.7977694388092,
+            "y": 812.9768128142455
+          },
+          "width": 200,
+          "twoColumn": false,
+          "graphState": {
+            "id": "4d563553-d8c7-4c29-8b70-3f1cee118658",
+            "nodes": [
+              {
+                "type": "__baklava_SubgraphInputNode",
+                "id": "168cde86-23ed-4d74-bc64-63114cbebb58",
+                "title": "Subgraph Input",
+                "inputs": {
+                  "name": {
+                    "id": "9c73077f-41d1-4bd8-85e2-b275b025a007",
+                    "templateId": "17295fda-5944-437f-b222-04dbca70034c",
+                    "value": "Sample"
+                  }
+                },
+                "outputs": {
+                  "placeholder": {
+                    "id": "de93e920-f313-4006-8acf-3a54f4d7f6e8",
+                    "templateId": "6868b981-0ecd-437d-bf7b-b869c77db352",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 322.95001220703125,
+                  "y": 190.1999969482422
+                },
+                "width": 200,
+                "twoColumn": false,
+                "graphInterfaceId": "0d0833e7-d6c4-426c-86f5-c97a21f9786d"
+              },
+              {
+                "type": "__baklava_SubgraphInputNode",
+                "id": "3573cab7-15f7-4796-bed8-92bb04f2e51d",
+                "title": "Subgraph Input",
+                "inputs": {
+                  "name": {
+                    "id": "263cadec-0fcb-4438-a128-ee095c62226b",
+                    "templateId": "e90fd30a-b851-4728-92ce-23f4492b47ca",
+                    "value": "Discount"
+                  }
+                },
+                "outputs": {
+                  "placeholder": {
+                    "id": "2a91919f-778b-488b-b5d4-be9b0c96f731",
+                    "templateId": "9233d185-cc3c-4d70-8d45-ab4c2c773ec7",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 331.20001220703125,
+                  "y": 401.40000915527344
+                },
+                "width": 200,
+                "twoColumn": false,
+                "graphInterfaceId": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007"
+              },
+              {
+                "type": "ToSeries",
+                "id": "bc630aa4-c3ef-4440-a119-f3fc6010f165",
+                "title": "To Series",
+                "inputs": {
+                  "timestep_method": {
+                    "id": "33f31bba-5951-490f-b845-15d0e61cc8a0",
+                    "templateId": "cca5fdd0-b6be-475e-a4b8-c2ef52af2b9a",
+                    "value": "every"
+                  },
+                  "x": {
+                    "id": "3cb455e9-16fc-4fe4-937f-9b1feda9304e",
+                    "templateId": "727a517e-4fa4-4bdb-856e-69a5a810f6ee",
+                    "value": 0
+                  },
+                  "n": {
+                    "id": "21349928-9c89-4dba-b42b-edcc633c5e38",
+                    "templateId": "e9efcbda-99ee-4d56-a7d6-cc234d0dc0f3",
+                    "value": 5
+                  }
+                },
+                "outputs": {
+                  "series": {
+                    "id": "b321c534-74f4-4586-838e-cef3968afcb0",
+                    "templateId": "0511f4d5-8567-4b14-b7f4-8ccb859faca5",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 629.2999877929688,
+                  "y": 197.35000610351562
+                },
+                "width": 200,
+                "twoColumn": false
+              },
+              {
+                "type": "NetPresentValue",
+                "id": "93fd77e4-a60b-4740-b64f-0829e7aa6312",
+                "title": "Net Present Value",
+                "inputs": {
+                  "x": {
+                    "id": "fd01211f-679e-42d5-981a-15d63cb3859d",
+                    "templateId": "db633248-e9d4-471c-b6b5-12c68b439c7e",
+                    "value": [
+                      []
+                    ]
+                  },
+                  "discount": {
+                    "id": "c5d9b29e-0f7b-4195-9d10-50fefb18265b",
+                    "templateId": "24e7b540-3baa-4ace-ad79-61833ab62702",
+                    "value": 10
+                  }
+                },
+                "outputs": {
+                  "sample": {
+                    "id": "e3df9317-fca5-45fa-af85-4010791f9eff",
+                    "templateId": "5b5d3422-3a71-43c0-bd44-17092a980421",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 913.0999755859375,
+                  "y": 329.8999786376953
+                },
+                "width": 200,
+                "twoColumn": false
+              },
+              {
+                "type": "__baklava_SubgraphOutputNode",
+                "id": "8bc8172e-2795-4b92-b548-1db214dd2860",
+                "title": "NPV",
+                "inputs": {
+                  "name": {
+                    "id": "b750582d-586f-4e01-80d4-5648b421bd41",
+                    "templateId": "5513404c-5cd8-40eb-9798-26df9d09b5a5",
+                    "value": "NPV"
+                  },
+                  "placeholder": {
+                    "id": "24bb0122-3916-46ee-bf67-ba6785308c67",
+                    "templateId": "cdb9c736-1cef-4adf-a4c5-a00afac2c0f8"
+                  }
+                },
+                "outputs": {
+                  "output": {
+                    "id": "215f680d-7737-4434-8197-6d8eed84ce55",
+                    "templateId": "aa8e431d-21de-4a80-b37a-c6cd319f4b93",
+                    "value": null
+                  }
+                },
+                "position": {
+                  "x": 1206.800048828125,
+                  "y": 254.5500030517578
+                },
+                "width": 200,
+                "twoColumn": false,
+                "graphInterfaceId": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5"
+              }
+            ],
+            "connections": [
+              {
+                "id": "c1d830a5-706d-4e0d-af48-d00d01cc96c4",
+                "from": "de93e920-f313-4006-8acf-3a54f4d7f6e8",
+                "to": "3cb455e9-16fc-4fe4-937f-9b1feda9304e"
+              },
+              {
+                "id": "f3ae5dd6-737d-4742-b539-b5cf807081e3",
+                "from": "b321c534-74f4-4586-838e-cef3968afcb0",
+                "to": "fd01211f-679e-42d5-981a-15d63cb3859d"
+              },
+              {
+                "id": "8a0a024a-622a-4c82-a658-6fac3acfa915",
+                "from": "2a91919f-778b-488b-b5d4-be9b0c96f731",
+                "to": "c5d9b29e-0f7b-4195-9d10-50fefb18265b"
+              },
+              {
+                "id": "8158ab67-0e88-4b36-b511-830ab5a7e0e9",
+                "from": "e3df9317-fca5-45fa-af85-4010791f9eff",
+                "to": "24bb0122-3916-46ee-bf67-ba6785308c67"
+              }
+            ],
+            "inputs": [
+              {
+                "id": "0d0833e7-d6c4-426c-86f5-c97a21f9786d",
+                "name": "Sample",
+                "nodeId": "168cde86-23ed-4d74-bc64-63114cbebb58",
+                "nodeInterfaceId": "de93e920-f313-4006-8acf-3a54f4d7f6e8"
+              },
+              {
+                "id": "7ea02a1f-ee09-4bc8-a53d-cac1daec3007",
+                "name": "Discount",
+                "nodeId": "3573cab7-15f7-4796-bed8-92bb04f2e51d",
+                "nodeInterfaceId": "2a91919f-778b-488b-b5d4-be9b0c96f731"
+              }
+            ],
+            "outputs": [
+              {
+                "id": "ede7cf15-eee2-4dfc-8410-b57018a8ddb5",
+                "name": "NPV",
+                "nodeId": "8bc8172e-2795-4b92-b548-1db214dd2860",
+                "nodeInterfaceId": "215f680d-7737-4434-8197-6d8eed84ce55"
+              }
+            ]
+          }
+        }
+      ],
+      "connections": [],
+      "inputs": [],
+      "outputs": []
+    }
+  ]
+}
