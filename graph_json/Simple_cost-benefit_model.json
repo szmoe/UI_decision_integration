@@ -1,0 +1,338 @@
+{
+  "graph": {
+    "id": "c075779c-6c69-429c-9147-fb0dfa967d99",
+    "nodes": [
+      {
+        "type": "Estimate",
+        "id": "664967ac-a5f8-43cc-8684-d78f0db88d28",
+        "title": "Apple_yield_pcs/season",
+        "inputs": {
+          "distribution": {
+            "id": "de69a8f6-74b8-4ad5-beee-a981db52d0ea",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "0ced3f22-2ae9-423e-adaa-139d0b63f96a",
+            "value": ""
+          },
+          "lower": {
+            "id": "92ad4d84-5ae8-4875-bb76-9f7e94cb410a",
+            "value": 5000
+          },
+          "upper": {
+            "id": "19a9b4b7-94b1-4abe-aed7-ec19d664244f",
+            "value": 10000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "7b2eb9f5-598c-4a0a-802a-93fe2bf18e88",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 373.5500793457031,
+          "y": 86.25
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "770904c0-04c7-4ba8-964e-a18d6b00ff2a",
+        "title": "Apple_selling_price_USD/pcs",
+        "inputs": {
+          "distribution": {
+            "id": "893bf945-ce85-499b-b8d7-daf63504d7cb",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "89ed8967-2b1c-4ccc-9585-f13dfd745f7d",
+            "value": ""
+          },
+          "lower": {
+            "id": "5ce07330-0c35-46a0-8787-250bffb37672",
+            "value": 0.5
+          },
+          "upper": {
+            "id": "f87cfa39-9ed2-420d-ad1a-34e9e326f081",
+            "value": 1
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "9690063e-adcd-424f-ba27-ba7081b36082",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 373.54998779296875,
+          "y": 363.99998474121094
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Math",
+        "id": "fcbf57ca-dfca-4070-9856-d88111e9df70",
+        "title": "Apple_income_USD/season",
+        "inputs": {
+          "output_type": {
+            "id": "6ed961bc-8fe0-4ce6-8813-416b9b49cfaa",
+            "value": "probabilistic"
+          },
+          "a": {
+            "id": "c7c38a9c-133b-499c-92cb-81fd27b3f898",
+            "value": 1
+          },
+          "b": {
+            "id": "11659639-1f6e-41d2-8b77-0f1198886579",
+            "value": 2
+          },
+          "operation": {
+            "id": "962c4f54-0861-492f-a0d0-ba57ff8de6c5",
+            "value": "multiply"
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "25c07356-a918-4834-8100-3b301779ccde",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 721.1500244140625,
+          "y": 200.64999389648438
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "a66484c2-4086-4360-a24a-fc7ea30996a3",
+        "title": "Labour_cost_USD/season",
+        "inputs": {
+          "distribution": {
+            "id": "69b7b7b9-fb80-4b43-aac5-5f5bcad2ca14",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "216981ef-cd41-405b-a263-371a2ba831fa",
+            "value": ""
+          },
+          "lower": {
+            "id": "2886c2f8-3195-4f5b-9df6-1249cfb24eab",
+            "value": 1000
+          },
+          "upper": {
+            "id": "e963c528-3743-491c-8689-b4cc0a52937b",
+            "value": 3000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "49acaba3-135b-47c3-ac4b-c76b189c4b3b",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 370.97434144611344,
+          "y": 680.4722682577549
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Estimate",
+        "id": "83e0a1c0-aff7-4c03-8e87-94095521b4d9",
+        "title": "Input_cost_USD/season",
+        "inputs": {
+          "distribution": {
+            "id": "b43abf1c-0ba9-47a6-922d-4b549fd52c28",
+            "value": "posnorm"
+          },
+          "comment": {
+            "id": "d7a0aeab-43a6-43fe-aa7b-1757cea95fac",
+            "value": ""
+          },
+          "lower": {
+            "id": "40ce5056-0606-4adc-95ca-04b1b54d159e",
+            "value": 1000
+          },
+          "upper": {
+            "id": "7ef022ef-8299-40cc-a566-d8024f8a96a1",
+            "value": 3000
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "c0984bfa-1519-45b5-ac21-7421a666a68b",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 369.9180316532287,
+          "y": 977.4989357471586
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Math",
+        "id": "54a8528a-71e2-413e-a31a-86d2fe0a94e1",
+        "title": "Apple_cost_USD/season",
+        "inputs": {
+          "output_type": {
+            "id": "bb9e02d3-cc58-4af2-895b-cbf89ea3cf28",
+            "value": "probabilistic"
+          },
+          "a": {
+            "id": "ba26167f-cb6b-4747-996a-3c4e644c2f89",
+            "value": 1
+          },
+          "b": {
+            "id": "cd94b61b-3d0e-46ce-bdda-12cf58e47225",
+            "value": 2
+          },
+          "operation": {
+            "id": "0fd3ef1a-86bd-44cc-829c-26607dea2acd",
+            "value": "add"
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "d44877a6-d58a-4a53-99ca-82d704ab8698",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 722.2116383913578,
+          "y": 838.777667231009
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Math",
+        "id": "6055ce78-046c-41b4-ad91-a8b5961b5bb9",
+        "title": "Apple_profit_USD/season",
+        "inputs": {
+          "output_type": {
+            "id": "dc1ccd86-37ef-440d-87d1-16f1fbb59b12",
+            "value": "probabilistic"
+          },
+          "a": {
+            "id": "574a3f18-ab87-408b-b969-ca27fbaa7d63",
+            "value": 1
+          },
+          "b": {
+            "id": "0b1acc85-f366-4bf0-b9fa-af1fe9613b3d",
+            "value": 2
+          },
+          "operation": {
+            "id": "1a4eb066-472f-429c-b735-f34ab0ce5ab3",
+            "value": "subtract"
+          }
+        },
+        "outputs": {
+          "sample": {
+            "id": "f9cbe811-eae4-45ae-be64-8809a583c7ea",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 1123.7145016613435,
+          "y": 436.16875998210395
+        },
+        "width": 200,
+        "twoColumn": false
+      },
+      {
+        "type": "Result",
+        "id": "0b29cc2b-10fc-443e-89a7-b37738ccf3c7",
+        "title": "Apple_net_profit_USD/season",
+        "inputs": {
+          "sample": {
+            "id": "58723b90-e319-4392-9484-77ac5ba62dd5",
+            "value": null
+          }
+        },
+        "outputs": {
+          "display": {
+            "id": "a48970bc-f46d-408c-80c1-d8918afd445b",
+            "value": null
+          }
+        },
+        "position": {
+          "x": 1457.7472706640626,
+          "y": 463.26745118440465
+        },
+        "width": 300,
+        "twoColumn": false
+      },
+      {
+        "type": "Note",
+        "id": "2b4380a5-2aaa-4c62-a0e4-a936bb8f99be",
+        "title": "Note",
+        "inputs": {
+          "note": {
+            "id": "7829fa03-404b-4770-be72-c0bb6a48679d",
+            "value": "Simple cost-benefit model for estimating net profit based on the income and expenses of an apple farm."
+          }
+        },
+        "outputs": {},
+        "position": {
+          "x": 709.8541595895505,
+          "y": -233.50040537011841
+        },
+        "width": 800,
+        "twoColumn": false
+      }
+    ],
+    "connections": [
+      {
+        "id": "e137f4a6-6e8d-41d5-bc20-e6b5d7c52a17",
+        "from": "7b2eb9f5-598c-4a0a-802a-93fe2bf18e88",
+        "to": "c7c38a9c-133b-499c-92cb-81fd27b3f898"
+      },
+      {
+        "id": "b6a1fefe-50f2-492a-bd63-450b841f99df",
+        "from": "9690063e-adcd-424f-ba27-ba7081b36082",
+        "to": "11659639-1f6e-41d2-8b77-0f1198886579"
+      },
+      {
+        "id": "4b86e0e3-d3d7-4cca-a3f1-43feb241ed1f",
+        "from": "49acaba3-135b-47c3-ac4b-c76b189c4b3b",
+        "to": "ba26167f-cb6b-4747-996a-3c4e644c2f89"
+      },
+      {
+        "id": "7e53b3a4-a506-43f8-9e4b-a3c87c4f0a26",
+        "from": "c0984bfa-1519-45b5-ac21-7421a666a68b",
+        "to": "cd94b61b-3d0e-46ce-bdda-12cf58e47225"
+      },
+      {
+        "id": "d65d4453-ddba-475c-a7b9-69976cb21908",
+        "from": "25c07356-a918-4834-8100-3b301779ccde",
+        "to": "574a3f18-ab87-408b-b969-ca27fbaa7d63"
+      },
+      {
+        "id": "fe93fca2-3aa6-4a21-b57e-72a31aff1329",
+        "from": "d44877a6-d58a-4a53-99ca-82d704ab8698",
+        "to": "0b1acc85-f366-4bf0-b9fa-af1fe9613b3d"
+      },
+      {
+        "id": "af1988f6-2c70-406b-abb2-99498d0c1f52",
+        "from": "f9cbe811-eae4-45ae-be64-8809a583c7ea",
+        "to": "58723b90-e319-4392-9484-77ac5ba62dd5"
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "panning": {
+      "x": 584.6997388768971,
+      "y": 417.2909219049239
+    },
+    "scaling": 0.5111799522475822
+  },
+  "graphTemplates": []
+}
